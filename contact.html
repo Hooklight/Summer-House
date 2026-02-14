@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact Summer House Med Spa in Preston Hollow, Dallas. Book your consultation for Botox, fillers, medical weight loss, and aesthetic treatments.">
+    <meta name="keywords" content="contact Summer House Med Spa, book appointment Dallas, Preston Hollow med spa contact">
+    <title>Contact & Book Appointment | Summer House Med Spa Dallas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav-container">
+            <a href="index.html" class="logo">Summer House <span>Med Spa</span></a>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">☰</button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+                <li><a href="contact.html#booking" class="btn btn-primary">Book Now</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="page-header">
+        <div class="container">
+            <h1>Get in Touch</h1>
+            <p>We're here to answer your questions and help you schedule your visit</p>
+        </div>
+    </section>
+
+    <section class="section section-white" id="booking">
+        <div class="container">
+            <div class="grid grid-2" style="gap: 4rem;">
+                <!-- Contact Form -->
+                <div>
+                    <h2>Schedule Your Consultation</h2>
+                    <p>Fill out the form below and we'll get back to you within 24 hours to confirm your appointment.</p>
+
+                    <!-- Netlify Form -->
+                    <form name="consultation" method="POST" data-netlify="true" netlify-honeypot="bot-field" class="mt-4">
+                        <!-- Hidden fields for Netlify -->
+                        <input type="hidden" name="form-name" value="consultation">
+                        <p style="display: none;">
+                            <label>Don't fill this out if you're human: <input name="bot-field"></label>
+                        </p>
+
+                        <div class="form-group">
+                            <label for="name" class="form-label">Full Name *</label>
+                            <input type="text" id="name" name="name" class="form-input" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email" class="form-label">Email Address *</label>
+                            <input type="email" id="email" name="email" class="form-input" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="phone" class="form-label">Phone Number *</label>
+                            <input type="tel" id="phone" name="phone" class="form-input" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="service" class="form-label">Treatment Interest *</label>
+                            <select id="service" name="service" class="form-select" required>
+                                <option value="">Select a treatment...</option>
+                                <option value="botox">Botox/Neuromodulators</option>
+                                <option value="fillers">Dermal Fillers</option>
+                                <option value="weight-loss">Medical Weight Loss (GLP-1)</option>
+                                <option value="laser">Laser Treatment</option>
+                                <option value="peptides">Peptide Therapy</option>
+                                <option value="microneedling">Microneedling/PRP</option>
+                                <option value="multiple">Multiple Treatments</option>
+                                <option value="consultation">General Consultation</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="preferred-date" class="form-label">Preferred Appointment Date</label>
+                            <input type="date" id="preferred-date" name="preferred-date" class="form-input">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="preferred-time" class="form-label">Preferred Time</label>
+                            <select id="preferred-time" name="preferred-time" class="form-select">
+                                <option value="">Select a time...</option>
+                                <option value="morning">Morning (9am-12pm)</option>
+                                <option value="afternoon">Afternoon (12pm-3pm)</option>
+                                <option value="evening">Evening (3pm-6pm)</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message" class="form-label">Message or Questions</label>
+                            <textarea id="message" name="message" class="form-textarea" placeholder="Tell us about your aesthetic goals or any questions you have..."></textarea>
+                        </div>
+
+                        <div class="form-group">
+                            <label style="display: flex; align-items: flex-start; gap: 0.5rem; cursor: pointer;">
+                                <input type="checkbox" name="consent" required style="margin-top: 0.25rem;">
+                                <span style="font-size: 0.9rem;">I consent to receive appointment reminders and occasional promotional communications from Summer House Med Spa. You may unsubscribe at any time.</span>
+                            </label>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary" style="width: 100%;">Request Appointment</button>
+                    </form>
+                </div>
+
+                <!-- Contact Information -->
+                <div>
+                    <h2>Contact Information</h2>
+                    <div class="contact-info mt-4">
+                        <div class="contact-item">
+                            <div class="contact-icon">📍</div>
+                            <div class="contact-details">
+                                <h3>Location</h3>
+                                <p>Preston Hollow<br>Dallas, TX 75230</p>
+                                <p><a href="#map">View on Map</a></p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-icon">📞</div>
+                            <div class="contact-details">
+                                <h3>Phone</h3>
+                                <p><a href="tel:+1XXXXXXXXXX">(XXX) XXX-XXXX</a></p>
+                                <p style="font-size: 0.9rem; color: #666;">Call or text for appointments</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-icon">✉️</div>
+                            <div class="contact-details">
+                                <h3>Email</h3>
+                                <p><a href="mailto:info@summerhousemedspa.com">info@summerhousemedspa.com</a></p>
+                                <p style="font-size: 0.9rem; color: #666;">We respond within 24 hours</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-icon">🕐</div>
+                            <div class="contact-details">
+                                <h3>Hours</h3>
+                                <p><strong>Monday - Friday:</strong> 9:00 AM - 6:00 PM<br>
+                                <strong>Saturday:</strong> By Appointment<br>
+                                <strong>Sunday:</strong> Closed</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card mt-4">
+                        <div class="card-content">
+                            <h3>New Patient?</h3>
+                            <p>We'd love to welcome you to Summer House Med Spa! Your first visit will include:</p>
+                            <ul style="list-style: none; padding-left: 0; margin-top: 1rem;">
+                                <li style="padding: 0.5rem 0; padding-left: 1.5rem; position: relative;">
+                                    <span style="position: absolute; left: 0; color: var(--forest-green); font-weight: bold;">✓</span>
+                                    Comprehensive aesthetic consultation
+                                </li>
+                                <li style="padding: 0.5rem 0; padding-left: 1.5rem; position: relative;">
+                                    <span style="position: absolute; left: 0; color: var(--forest-green); font-weight: bold;">✓</span>
+                                    Discussion of your goals and concerns
+                                </li>
+                                <li style="padding: 0.5rem 0; padding-left: 1.5rem; position: relative;">
+                                    <span style="position: absolute; left: 0; color: var(--forest-green); font-weight: bold;">✓</span>
+                                    Personalized treatment recommendations
+                                </li>
+                                <li style="padding: 0.5rem 0; padding-left: 1.5rem; position: relative;">
+                                    <span style="position: absolute; left: 0; color: var(--forest-green); font-weight: bold;">✓</span>
+                                    Honest pricing and timeline expectations
+                                </li>
+                                <li style="padding: 0.5rem 0; padding-left: 1.5rem; position: relative;">
+                                    <span style="position: absolute; left: 0; color: var(--forest-green); font-weight: bold;">✓</span>
+                                    Option for same-day treatment (if desired)
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <section class="section section-light" id="map">
+        <div class="container">
+            <div class="section-header">
+                <h2>Find Us</h2>
+                <p>Conveniently located in Preston Hollow, Dallas</p>
+            </div>
+            <div class="map-container">
+                <!-- Replace with actual Google Maps embed -->
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d107194.45587186775!2d-96.87113424999999!3d32.8628095!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864e9f58d4d1c2a3%3A0x7b3c9c5e1d1e6f3e!2sPreston%20Hollow%2C%20Dallas%2C%20TX!5e0!3m2!1sen!2sus!4v1234567890123!5m2!1sen!2sus"
+                    allowfullscreen=""
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"
+                    title="Summer House Med Spa Location">
+                </iframe>
+            </div>
+            <div class="text-center mt-4">
+                <p><strong>Parking:</strong> Ample free parking available on-site</p>
+                <p><strong>Accessibility:</strong> Wheelchair accessible entrance and facilities</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="section section-white">
+        <div class="container-narrow">
+            <div class="section-header">
+                <h2>Before Your Visit</h2>
+            </div>
+
+            <div class="card mb-3">
+                <div class="card-content">
+                    <h3>What should I bring to my appointment?</h3>
+                    <p>Please bring a valid ID and any relevant medical records or current medications list. If you're a new patient, arrive 10 minutes early to complete paperwork.</p>
+                </div>
+            </div>
+
+            <div class="card mb-3">
+                <div class="card-content">
+                    <h3>Do you offer free consultations?</h3>
+                    <p>Yes! We offer complimentary consultations for most aesthetic treatments. This allows us to assess your needs and create a personalized treatment plan with no obligation.</p>
+                </div>
+            </div>
+
+            <div class="card mb-3">
+                <div class="card-content">
+                    <h3>What payment methods do you accept?</h3>
+                    <p>We accept all major credit cards, debit cards, HSA/FSA cards, and cash. We also offer flexible payment plans for certain treatments.</p>
+                </div>
+            </div>
+
+            <div class="card mb-3">
+                <div class="card-content">
+                    <h3>What is your cancellation policy?</h3>
+                    <p>We require 24 hours notice for cancellations or rescheduling. Late cancellations or no-shows may be subject to a fee.</p>
+                </div>
+            </div>
+
+            <div class="card mb-3">
+                <div class="card-content">
+                    <h3>Do you take insurance?</h3>
+                    <p>Most aesthetic treatments are considered elective and are not covered by insurance. However, some treatments like medical weight loss may be covered depending on your plan. We can provide documentation for you to submit to your insurance.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <h2>Ready to Begin Your Aesthetic Journey?</h2>
+            <p>Book your consultation today and take the first step toward looking and feeling your best</p>
+            <a href="#booking" class="btn btn-light">Schedule Now</a>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Summer House Med Spa</h3>
+                    <p>A medical spa focused on natural results in the heart of Dallas.</p>
+                    <div class="footer-social">
+                        <a href="#" class="social-icon" aria-label="Facebook">f</a>
+                        <a href="#" class="social-icon" aria-label="Instagram">📷</a>
+                        <a href="#" class="social-icon" aria-label="Twitter">🐦</a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="contact.html#booking">Book Appointment</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Services</h3>
+                    <ul class="footer-links">
+                        <li><a href="botox.html">Botox & Neuromodulators</a></li>
+                        <li><a href="fillers.html">Dermal Fillers</a></li>
+                        <li><a href="glp1-weight-loss.html">Medical Weight Loss</a></li>
+                        <li><a href="laser.html">Laser Treatment</a></li>
+                        <li><a href="peptides.html">Peptide Therapy</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact Info</h3>
+                    <p>Preston Hollow<br>Dallas, TX</p>
+                    <p>Phone: <a href="tel:+1XXXXXXXXXX">(XXX) XXX-XXXX</a></p>
+                    <p>Email: <a href="mailto:info@summerhousemedspa.com">info@summerhousemedspa.com</a></p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Summer House Med Spa. All rights reserved. | <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        const navToggle = document.getElementById('navToggle');
+        const navMenu = document.getElementById('navMenu');
+        navToggle.addEventListener('click', function() {
+            navMenu.classList.toggle('active');
+            navToggle.textContent = navMenu.classList.contains('active') ? '✕' : '☰';
+        });
+        document.addEventListener('click', function(event) {
+            const isClickInsideNav = navMenu.contains(event.target);
+            const isClickOnToggle = navToggle.contains(event.target);
+            if (!isClickInsideNav && !isClickOnToggle && navMenu.classList.contains('active')) {
+                navMenu.classList.remove('active');
+                navToggle.textContent = '☰';
+            }
+        });
+        const navLinks = navMenu.querySelectorAll('a');
+        navLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                if (navMenu.classList.contains('active')) {
+                    navMenu.classList.remove('active');
+                    navToggle.textContent = '☰';
+                }
+            });
+        });
+    </script>
+</body>
+</html>
