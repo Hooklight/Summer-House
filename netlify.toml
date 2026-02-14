@@ -1,0 +1,55 @@
+# Netlify configuration for Summer House Aesthetics
+
+[build]
+  # No build step needed - static HTML site
+  publish = "."
+
+[build.environment]
+  NODE_VERSION = "18"
+
+# Redirect rules
+[[redirects]]
+  from = "/dallasprescriptionweightloss"
+  to = "/prescription-weight-loss-dallas"
+  status = 301
+
+[[redirects]]
+  from = "/dallasfiller"
+  to = "/dallas-filler"
+  status = 301
+
+[[redirects]]
+  from = "/glp1weightlossdallas"
+  to = "/glp1-weight-loss-dallas"
+  status = 301
+
+# Forms configuration
+[forms]
+  # Enable form detection
+  enabled = true
+
+# Headers for security and performance
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-Content-Type-Options = "nosniff"
+    X-XSS-Protection = "1; mode=block"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+
+[[headers]]
+  for = "/*.css"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/*.js"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+# Plugin configuration
+[[plugins]]
+  package = "@netlify/plugin-sitemap"
+
+  [plugins.inputs]
+    buildDir = "."
