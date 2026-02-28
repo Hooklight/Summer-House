@@ -40,3 +40,8 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Planning docs — kept locally, not tracked in repo
+docs/
+*.docx
+~$*.docx
