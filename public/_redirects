@@ -1,0 +1,38 @@
+# Canonical host
+https://www.summerhousemedspa.com/* https://summerhousemedspa.com/:splat 301!
+
+# Existing brand domain alignment
+https://summerhousedallas.com/* https://summerhousemedspa.com/:splat 301!
+https://www.summerhousedallas.com/* https://summerhousemedspa.com/:splat 301!
+
+# High-intent domain redirects
+https://dallasfiller.com/* https://summerhousemedspa.com/services/dallas-filler 301!
+https://www.dallasfiller.com/* https://summerhousemedspa.com/services/dallas-filler 301!
+
+https://dallasozempic.com/* https://summerhousemedspa.com/services/glp1-weight-loss-dallas 301!
+https://www.dallasozempic.com/* https://summerhousemedspa.com/services/glp1-weight-loss-dallas 301!
+
+https://glp1weightlossdallas.com/* https://summerhousemedspa.com/services/glp1-weight-loss-dallas 301!
+https://www.glp1weightlossdallas.com/* https://summerhousemedspa.com/services/glp1-weight-loss-dallas 301!
+
+https://dallasprescriptionweightloss.com/* https://summerhousemedspa.com/services/glp1-weight-loss-dallas 301!
+https://www.dallasprescriptionweightloss.com/* https://summerhousemedspa.com/services/glp1-weight-loss-dallas 301!
+
+https://dallasbestmedspa.com/* https://summerhousemedspa.com/ 301!
+https://www.dallasbestmedspa.com/* https://summerhousemedspa.com/ 301!
+
+# Informational intent domains route to educational content
+https://pillglp1.com/* https://summerhousemedspa.com/blog/semaglutide-vs-tirzepatide-dallas 301!
+https://www.pillglp1.com/* https://summerhousemedspa.com/blog/semaglutide-vs-tirzepatide-dallas 301!
+
+https://glp1pilldallas.com/* https://summerhousemedspa.com/blog/semaglutide-vs-tirzepatide-dallas 301!
+https://www.glp1pilldallas.com/* https://summerhousemedspa.com/blog/semaglutide-vs-tirzepatide-dallas 301!
+
+https://oralweightlossdallas.com/* https://summerhousemedspa.com/blog/semaglutide-vs-tirzepatide-dallas 301!
+https://www.oralweightlossdallas.com/* https://summerhousemedspa.com/blog/semaglutide-vs-tirzepatide-dallas 301!
+
+https://retatrutidedallas.com/* https://summerhousemedspa.com/blog/semaglutide-vs-tirzepatide-dallas 301!
+https://www.retatrutidedallas.com/* https://summerhousemedspa.com/blog/semaglutide-vs-tirzepatide-dallas 301!
+
+https://dallasretatrutide.com/* https://summerhousemedspa.com/blog/semaglutide-vs-tirzepatide-dallas 301!
+https://www.dallasretatrutide.com/* https://summerhousemedspa.com/blog/semaglutide-vs-tirzepatide-dallas 301!
