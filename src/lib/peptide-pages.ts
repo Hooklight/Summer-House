@@ -24,8 +24,8 @@ function parsePage(filename: string, raw: string): PeptidePage {
   const second = raw.indexOf("---", first + 3);
   const frontmatter = first >= 0 && second > first ? raw.slice(first + 3, second) : "";
 
-  const metaTitle = extractField(frontmatter, "title");
-  const metaDescription = extractField(frontmatter, "description");
+  const metaTitle = extractField(frontmatter, "title").replace("Summer House Aesthetics", "Summer House Medspa");
+  const metaDescription = extractField(frontmatter, "description").replace("Summer House Aesthetics", "Summer House Medspa");
   const displayTitle = metaTitle.replace(/\s*\|.*$/, "").trim();
 
   const body = second >= 0 ? raw.slice(second + 3).trim() : raw;

@@ -3,13 +3,14 @@ import type { MetadataRoute } from "next";
 import { blogPosts } from "@/lib/blog";
 import { conditions } from "@/lib/conditions";
 import { locations, services } from "@/lib/content";
+import { getAllPeptidePages } from "@/lib/peptide-pages";
 import { personas } from "@/lib/personas";
 import { absoluteUrl } from "@/lib/site";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const now = new Date();
 
-  const staticRoutes = ["", "/services", "/locations", "/conditions", "/about", "/contact", "/blog", "/privacy", "/terms"].map(
+  const staticRoutes = ["", "/services", "/locations", "/conditions", "/peptide-therapy", "/about", "/contact", "/blog", "/privacy", "/terms"].map(
     (path) => ({
       url: absoluteUrl(path || "/"),
       lastModified: now,
@@ -53,5 +54,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.8,
   }));
 
-  return [...staticRoutes, ...serviceRoutes, ...locationRoutes, ...blogRoutes, ...personaRoutes, ...conditionRoutes];
+  const peptideRoutes = getAllPeptidePages().map((page) => ({
+    url: absoluteUrl(`/peptide-therapy/${page.slug}`),
+    lastModified: new Date("2026-03-05"),
+    changeFrequency: "monthly" as const,
+    priority: 0.8,
+  }));
+
+  return [...staticRoutes, ...serviceRoutes, ...locationRoutes, ...blogRoutes, ...personaRoutes, ...conditionRoutes, ...peptideRoutes];
 }
