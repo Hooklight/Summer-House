@@ -1,98 +1,26 @@
----
-title: "Inflammation & Peptide Therapy in Dallas | Summer House Aesthetics"
-description: "Chronic inflammation driving joint pain, fatigue, and weight gain? Peptide therapy at Summer House Aesthetics in Dallas targets inflammatory pathways at the source. Dr. Daniel Kim, MD."
-slug: /peptide-therapy/inflammation-peptide-therapy
-category: condition-pages
-hub: /peptide-therapy
-lastUpdated: 2026-03-05
-author: "Dr. Daniel Kim, MD"
----
-
-# Chronic Inflammation and Peptide Therapy in Dallas
-
-Inflammation gets a bad reputation, and most of it is unearned. Acute inflammation — the kind that swells an ankle after a sprain or rallies white blood cells to fight an infection — is your immune system doing exactly what it should. The problem shows up when inflammation loses its off switch.
-
-Chronic low-grade inflammation operates differently from the dramatic kind. There's no swelling you can point to, no fever, no obvious trigger. Instead, there's a persistent hum of immune activation: elevated CRP on lab work, hs-IL-6 creeping upward, fatigue that sleep doesn't touch, a slow accumulation of symptoms that individually seem minor but collectively wreck your quality of life.
-
-At Summer House Aesthetics in Dallas, Dr. Daniel Kim sees this pattern constantly. Patients come in with a collection of complaints — stiffness, brain fog, stubborn weight, skin issues — and a stack of labs where everything looks "normal" except the inflammatory markers nobody checked. Peptide therapy gives us a way to dial down that background noise without blunting the immune response entirely.
-
-## The Inflammation Problem Nobody's Treating
-
-Here's the gap in conventional medicine: if your inflammation is severe enough, you get a rheumatologist, a biologic drug, and a diagnosis. If it's not severe enough for that — and for most people, it isn't — you get told your labs are fine and to come back if things get worse.
-
-That middle ground is enormous. Millions of people walk around with subclinical inflammation that's driving real symptoms but falls below the threshold of standard medical intervention. C-reactive protein at 4 mg/L. Not high enough for a diagnosis, high enough to feel terrible.
-
-Published research increasingly recognizes this space. A 2023 review in *Nature Reviews Immunology* described chronic low-grade inflammation as a driver of metabolic syndrome, accelerated aging, neurodegeneration, and cardiovascular risk. The symptoms patients report — fatigue, cognitive slowing, joint stiffness, poor recovery from exercise — align directly with what the research predicts.
-
-Peptide therapy targets this middle ground. Not immunosuppression. Not "anti-inflammatory supplements." Actual modulation of signaling pathways that govern the inflammatory response.
-
-## Which Peptides Address Inflammation — and How
-
-**Thymosin Alpha-1 (Tα1)** is an immunomodulatory peptide originally isolated from the thymus gland. Its mechanism is nuanced: rather than simply suppressing immune activity, Tα1 helps the immune system self-regulate. It upregulates T-regulatory cells — the subset responsible for preventing overactive immune responses — while maintaining your ability to fight infection. Published data in *Annals of the New York Academy of Sciences* supports its role in restoring immune balance, not just dampening it.
-
-**BPC-157** has broad anti-inflammatory properties beyond its gut-healing reputation. Research shows it modulates nitric oxide pathways, protects against NSAID-induced tissue damage, and accelerates healing in inflamed tissue. For patients whose inflammation centers on musculoskeletal or GI complaints, BPC-157 addresses both the inflammation and the tissue damage it causes.
-
-**KPV** is a tripeptide with targeted anti-inflammatory action through NF-kB pathway downregulation. NF-kB is the master transcription factor for inflammatory gene expression — when it's chronically activated, you get a self-reinforcing loop of inflammation producing more inflammation. KPV interrupts that loop. Published research supports its application in both GI inflammation and systemic inflammatory conditions.
-
-**Selank** deserves mention for the neuro-inflammatory component. Chronic inflammation doesn't stop at the blood-brain barrier. Neuroinflammation contributes to the brain fog, mood disruption, and cognitive sluggishness that inflammation patients describe. Selank, a synthetic peptide derived from the immunoglobulin G molecule, has anxiolytic and nootropic properties that address the neurological fallout of chronic inflammatory states.
-
-## How Dr. Kim Approaches Inflammation Cases
-
-The first consultation runs about 45 minutes, and Dr. Kim spends most of it asking questions — not about your symptoms, but about your life. Stress load, sleep quality, training history, dietary patterns, medication use, infection history. Inflammation is always downstream of something, and figuring out what's upstream matters as much as the treatment itself.
-
-Lab work typically includes hs-CRP, homocysteine, fasting insulin, a comprehensive metabolic panel, and sometimes specialized markers like IL-6, TNF-alpha, or oxidized LDL depending on the clinical picture.
-
-The peptide protocol depends on the pattern. A patient with elevated CRP, joint complaints, and poor exercise recovery gets a different approach than someone whose inflammation manifests primarily as cognitive symptoms and fatigue.
-
-Dr. Kim doesn't pretend the peptide does everything. If someone's training six days a week, sleeping five hours, and eating fast food between meetings — and that describes a solid portion of Dallas's professional class — the peptide is a bridge while they address the actual drivers. He'll say that directly.
-
-## Who This Is For
-
-Chronic inflammation doesn't have a single patient profile, but there are patterns we see regularly in our Dallas practice.
-
-The overachiever in their 40s. Running a company or climbing the corporate ladder, training hard, traveling constantly. Labs show everything "in range" but they haven't felt right in two years. Their doctor can't find anything wrong. Their CRP tells a different story.
-
-The autoimmune-adjacent patient. Maybe they have Hashimoto's that's technically controlled, or a family history loaded with autoimmune conditions. They run warm on inflammatory markers without meeting diagnostic criteria for anything specific. They live in a gray zone that conventional medicine doesn't have great tools for.
-
-The post-COVID patient. Lingering inflammation after viral illness is well-documented at this point. Some patients have measurable inflammatory markers months or years after infection. Peptide therapy offers a path toward resolution that doesn't involve long-term prednisone or hoping it resolves on its own.
-
-The athlete who can't recover. Heavy training generates inflammation — that's how adaptation works. But when recovery stalls, performance plateaus, and every workout leaves you more depleted than the last, the inflammatory load has exceeded the body's ability to clear it. We see this especially in CrossFit and endurance athletes around Dallas.
-
-## What Treatment Looks Like
-
-Most inflammation protocols at Summer House run 8 to 16 weeks. The timeline depends on how long the inflammation has been present and how many systems it's affecting. Someone with a 6-month history of elevated CRP after a stressful period responds faster than someone who's been running hot for a decade.
-
-Peptides are typically administered via subcutaneous injection. Dr. Kim's team teaches you the technique during your first visit — it's a small insulin-gauge needle, minimal discomfort, takes about 30 seconds once you've done it a few times. Most patients inject at home on a set schedule.
-
-We reassess labs at 6 to 8 weeks. This isn't a "set it and forget it" protocol. If inflammatory markers haven't moved by the midpoint, we adjust rather than just extending the timeline. Dr. Kim wants to see objective improvement, not just subjective reports of feeling better — though those matter too.
-
-## What Patients Typically Notice
-
-The first thing most patients report is improved sleep. Not because the peptide is a sleep aid, but because chronic inflammation disrupts sleep architecture in ways most people don't realize. When the inflammatory load drops, sleep quality improves on its own.
-
-By weeks 3 to 4, joint stiffness and exercise recovery usually improve. Energy comes next. Cognitive clarity — the lifting of that persistent fog — tends to follow around weeks 5 to 7. This progression makes physiological sense: systemic inflammation resolves before neuroinflammation, and the brain is the last organ to fully benefit.
-
-Not every patient follows this exact sequence. Some notice cognitive improvements first. Some see skin changes before anything else. The variability reflects how differently inflammation manifests across individuals.
-
-## Common Questions About Inflammation and Peptides
-
-**My doctor says my labs are normal. Can I still benefit from this?**
-"Normal" on a standard lab panel has a wide range. A CRP of 3 mg/L is technically normal. It's also three times higher than optimal. Dr. Kim runs more specific inflammatory markers and interprets them in clinical context, not just against reference ranges. Many of our patients were told their labs were fine before getting a more granular workup here.
-
-**Will this interfere with my autoimmune medication?**
-It depends on the medication. Thymosin Alpha-1 is generally compatible with most autoimmune treatments and may actually complement them by supporting immune regulation. However, Dr. Kim reviews your full medication list and coordinates with your rheumatologist or prescribing physician when appropriate. We don't operate in a silo.
-
-**How is this different from taking turmeric or fish oil?**
-Over-the-counter anti-inflammatory supplements work through broad, nonspecific mechanisms. Some help, some don't, and the effect size is generally modest. Peptides target specific inflammatory signaling pathways — NF-kB, T-regulatory cell function, nitric oxide pathways — with precision that supplements can't match. They're not competing approaches so much as different levels of intervention.
-
-**Is there anyone who shouldn't do this?**
-Active cancer, active infections, and pregnancy are contraindications for most peptide protocols. Patients on immunosuppressive therapy need careful evaluation. Dr. Kim screens for these during the initial consultation. Transparency about what's appropriate — and what isn't — is part of how we practice.
-
-**What does it cost?**
-Peptide therapy protocols at Summer House vary based on the specific peptides used and the duration of treatment. We discuss costs clearly during the consultation. We don't accept insurance for peptide therapy, but we provide documentation patients can submit to HSA/FSA accounts.
-
-## Ready to Address What's Driving Your Symptoms?
-
-If chronic inflammation is degrading your quality of life and conventional approaches haven't resolved it, peptide therapy may offer a more targeted path. [Schedule a consultation](/contact) with Dr. Daniel Kim at Summer House Aesthetics in Dallas.
-
+--- title: "Inflammation & Peptide Therapy in Dallas | Summer House Aesthetics" description: "Chronic inflammation driving joint pain, fatigue, and weight gain? Peptide therapy at Summer House Aesthetics in Dallas targets inflammatory pathways at the source. Dr. Daniel Kim, MD." slug: /peptide-therapy/inflammation-peptide-therapy category: condition-pages hub: /peptide-therapy lastUpdated: 2026-03-05 author: "Dr.
+Daniel Kim, MD" --- # Chronic Inflammation and Peptide Therapy in Dallas Inflammation gets a bad reputation, and most of it is unearned. Acute inflammation — the kind that swells an ankle after a sprain or rallies white blood cells to fight an infection — is your immune system doing exactly what it should. The problem shows up when inflammation loses its off switch. Chronic low-grade inflammation operates differently from the dramatic kind.
+There's no swelling you can point to, no fever, no obvious trigger. Instead, there's a persistent hum of immune activation: elevated CRP on lab work, hs-IL-6 creeping upward, fatigue that sleep doesn't touch, a slow accumulation of symptoms that individually seem minor but collectively wreck your quality of life. Dr. Daniel Kim sees this pattern constantly in Dallas.
+Patients come in with a collection of complaints — stiffness, brain fog, stubborn weight, skin issues — and a stack of labs where everything looks "normal" except the inflammatory markers nobody checked. Peptide therapy gives us a way to dial down that background noise without blunting the immune response entirely. ## The Inflammation Problem Nobody's Treating Here's the gap in conventional medicine: if your inflammation is severe enough, you get a rheumatologist, a biologic drug, and a diagnosis.
+If it's not severe enough for that — and for most people, it isn't — you get told your labs are fine and to come back if things get worse. That middle ground is enormous. Millions of people walk around with subclinical inflammation that's driving real symptoms but falls below the threshold of standard medical intervention. C-reactive protein at 4 mg/L. Not high enough for a diagnosis, high enough to feel terrible. If you've been told that's "fine," ask yourself: fine for who? Published research increasingly recognizes this space.
+Large reviews in the medical literature describe chronic low-grade inflammation as a driver of metabolic syndrome, accelerated aging, neurodegeneration, and cardiovascular risk. The symptoms patients report — fatigue, cognitive slowing, joint stiffness, poor recovery from exercise — align directly with what the research predicts. Peptide therapy targets this middle ground. Not immunosuppression.
+Not "anti-inflammatory supplements." Actual modulation of signaling pathways that govern the inflammatory response. ## Which Peptides Address Inflammation — and How **Thymosin Alpha-1 (Tα1)** is an immunomodulatory peptide originally isolated from the thymus gland. Its mechanism is nuanced: rather than simply suppressing immune activity, Tα1 helps the immune system self-regulate.
+It upregulates T-regulatory cells — the subset responsible for preventing overactive immune responses — while maintaining your ability to fight infection. Published data in *Annals of the New York Academy of Sciences* supports its role in restoring immune balance, not just dampening it. **BPC-157** has broad anti-inflammatory properties beyond its gut-healing reputation.
+Research shows it modulates nitric oxide pathways, protects against NSAID-induced tissue damage, and accelerates healing in inflamed tissue. For patients whose inflammation centers on musculoskeletal or GI complaints, BPC-157 addresses both the inflammation and the tissue damage it causes. **KPV** is a tripeptide with targeted anti-inflammatory action through NF-kB pathway downregulation.
+NF-kB is the master transcription factor for inflammatory gene expression — when it's chronically activated, you get a self-reinforcing loop of inflammation producing more inflammation. KPV interrupts that loop. Published research supports its application in both GI inflammation and systemic inflammatory conditions. **Selank** deserves mention for the neuro-inflammatory component. Chronic inflammation doesn't stop at the blood-brain barrier.
+Neuroinflammation contributes to the brain fog, mood disruption, and cognitive sluggishness that inflammation patients describe. Selank, a synthetic peptide derived from the immunoglobulin G molecule, has anxiolytic and nootropic properties that address the neurological fallout of chronic inflammatory states. ## How Dr. Kim Approaches Inflammation Cases The first consultation runs about 45 minutes, and Dr. Kim spends most of it asking questions — not about your symptoms, but about your life.
+Stress load, sleep quality, training history, dietary patterns, medication use, infection history. Inflammation is always downstream of something, and figuring out what's upstream matters as much as the treatment itself. Lab work typically includes hs-CRP, homocysteine, fasting insulin, a full metabolic panel (CMP), and sometimes specialized markers like IL-6, TNF-alpha, or oxidized LDL depending on the clinical picture. The peptide protocol depends on the pattern.
+A patient with elevated CRP, joint complaints, and poor exercise recovery gets a different approach than someone whose inflammation manifests primarily as cognitive symptoms and fatigue. Dr. Kim doesn't pretend the peptide does everything. If someone's training six days a week, sleeping five hours, and eating fast food between meetings — and that describes a solid portion of Dallas's professional class — the peptide is a bridge while they address the actual drivers. He'll say that directly.
+## Who This Is For Chronic inflammation doesn't have a single patient profile, but there are patterns we see regularly in our Dallas practice. The overachiever in their 40s. Running a company or climbing the corporate ladder, training hard, traveling constantly. Labs show everything "in range" but they haven't felt right in two years. Their doctor can't find anything wrong. Their CRP tells a different story. The autoimmune-adjacent patient.
+Maybe they have Hashimoto's that's technically controlled, or a family history loaded with autoimmune conditions. They run warm on inflammatory markers without meeting diagnostic criteria for anything specific. They live in a gray zone that conventional medicine doesn't have great tools for. The post-COVID patient. Lingering inflammation after viral illness is well-documented at this point. Some patients have measurable inflammatory markers months or years after infection.
+Peptide therapy offers a path toward resolution that doesn't involve long-term prednisone or hoping it resolves on its own. The athlete who can't recover. Heavy training generates inflammation — that's how adaptation works. But when recovery stalls, performance plateaus, and every workout leaves you more depleted than the last, the inflammatory load has exceeded the body's ability to clear it. We see this especially in CrossFit and endurance athletes around Dallas.
+## What Treatment Looks Like Most inflammation protocols at Summer House run 8 to 16 weeks. The timeline depends on how long the inflammation has been present and how many systems it's affecting. Someone with a 6-month history of elevated CRP after a stressful period responds faster than someone who's been running hot for a decade. Peptides are typically administered via subcutaneous injection. Dr.
+Kim's team teaches you the technique during your first visit — it's a small insulin-gauge needle, minimal discomfort, takes about 30 seconds once you've done it a few times. Most patients inject at home on a set schedule. We reassess labs at 6 to 8 weeks. This isn't a "set it and forget it" protocol. If inflammatory markers haven't moved by the midpoint, we adjust rather than just extending the timeline. Dr.
+Kim wants to see objective improvement, not just subjective reports of feeling better — though those matter too. ## What Patients Typically Notice The first thing most patients report is improved sleep. Not because the peptide is a sleep aid, but because chronic inflammation disrupts sleep architecture in ways most people don't realize. When the inflammatory load drops, sleep quality improves on its own. By weeks 3 to 4, joint stiffness and exercise recovery usually improve. Energy comes next.
+Cognitive clarity — the lifting of that persistent fog — tends to follow around weeks 5 to 7. This progression makes physiological sense: systemic inflammation resolves before neuroinflammation, and the brain is the last organ to fully benefit. Not every patient follows this exact sequence. Some notice cognitive improvements first. Some see skin changes before anything else. The variability reflects how differently inflammation manifests across individuals.
+## Common Questions About Inflammation and Peptides **My doctor says my labs are normal. Can I still benefit from this?** "Normal" on a standard lab panel has a wide range. A CRP of 3 mg/L is technically normal. It's also three times higher than optimal. Dr. Kim runs more specific inflammatory markers and interprets them in clinical context, not just against reference ranges. Many of our patients were told their labs were fine before getting a more granular workup here.
+**Will this interfere with my autoimmune medication?** It depends on the medication. Thymosin Alpha-1 is generally compatible with most autoimmune treatments and may actually complement them by supporting immune regulation. However, Dr. Kim reviews your full medication list and coordinates with your rheumatologist or prescribing physician when appropriate. We don't operate in a silo.
+**How is this different from taking turmeric or fish oil?** Over-the-counter anti-inflammatory supplements work through broad, nonspecific mechanisms. Some help, some don't, and the effect size is generally modest. Peptides target specific inflammatory signaling pathways — NF-kB, T-regulatory cell function, nitric oxide pathways — with precision that supplements can't match. They're not competing approaches so much as different levels of intervention.
+**Is there anyone who shouldn't do this?** Active cancer, active infections, and pregnancy are contraindications for most peptide protocols. Patients on immunosuppressive therapy need careful evaluation. Dr. Kim screens for these during the initial consultation. Transparency about what's appropriate — and what isn't — is part of how we practice. **What does it cost?** Peptide therapy protocols at Summer House vary based on the specific peptides used and the duration of treatment.
+We discuss costs clearly during the consultation. We don't accept insurance for peptide therapy, but we provide documentation patients can submit to HSA/FSA accounts. ## Ready to Address What's Driving Your Symptoms? If chronic inflammation is degrading your quality of life and conventional approaches haven't resolved it, peptide therapy may offer a more targeted path. [Schedule a consultation](/contact) with Dr. Daniel Kim at Summer House Aesthetics in Dallas.
 *Summer House Aesthetics serves patients across Dallas, Plano, Frisco, and the greater DFW metroplex. Dr. Daniel Kim, MD supervises all peptide therapy protocols. This content is educational and does not substitute for individualized medical evaluation.*
