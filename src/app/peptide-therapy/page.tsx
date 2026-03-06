@@ -37,7 +37,7 @@ export default function PeptideTherapyHub() {
             </p>
             <div className="mt-8 flex flex-wrap justify-center gap-4">
               <a
-                href="/#lead-form"
+                href="#lead-form"
                 className="focus-ring rounded-2xl bg-[#bb4b28] px-6 py-3.5 text-sm font-semibold text-white hover:bg-[#963719]"
               >
                 Start a conversation
@@ -142,7 +142,7 @@ export default function PeptideTherapyHub() {
         </section>
 
         {/* Lead form */}
-        <section className="bg-[#fff8ef] py-14">
+        <section id="lead-form" className="bg-[#fff8ef] py-14">
           <div className="mx-auto grid w-full max-w-5xl gap-10 px-6 md:grid-cols-2">
             <div>
               <h2

@@ -4,6 +4,23 @@ import { BreadcrumbJsonLd } from "@/components/breadcrumb-jsonld";
 import { SiteShell } from "@/components/site-shell";
 import { contactPhoneDisplay, contactPhoneHref, primaryCtaHref } from "@/lib/content";
 
+const personJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Person",
+  name: "Dr. Daniel Kim, MD",
+  jobTitle: "Medical Director",
+  worksFor: {
+    "@type": "MedicalBusiness",
+    name: "Summer House Medspa",
+    address: {
+      "@type": "PostalAddress",
+      addressLocality: "Dallas",
+      addressRegion: "TX",
+    },
+  },
+  medicalSpecialty: "Aesthetic Medicine",
+};
+
 export const metadata: Metadata = {
   title: "About Summer House Medspa | Natural-Results Philosophy",
   description:
@@ -54,7 +71,39 @@ export default function AboutPage() {
             ))}
           </div>
 
-          <section className="mt-8 rounded-2xl border border-[#e8dbc8] bg-white p-6">
+          {/* Provider bio — E-E-A-T signal for Google YMYL */}
+          <section className="mt-8 rounded-2xl border border-[#e8dbc8] bg-white p-6 md:p-8">
+            <p className="text-xs font-semibold uppercase tracking-[0.18em] text-[#7a9e7e]">Medical Director</p>
+            <h2 className="mt-2 text-3xl text-[#182446]">Dr. Daniel Kim, MD</h2>
+            <p className="mt-1 text-sm font-semibold text-[#bb4b28]">
+              {/* TODO: Add board certification — e.g. "Board-Certified [Specialty], American Board of [X]" */}
+              Aesthetic Medicine · Dallas, TX
+            </p>
+            <div className="mt-4 grid gap-3 text-sm leading-7 text-[#40557b]">
+              <p>
+                Dr. Kim oversees all clinical protocols at Summer House Medspa, including injectable treatments, medical weight-loss
+                programs, and peptide therapy. His approach centers on conservative, individualized care — outcomes that look
+                natural because they are built around each patient's anatomy and goals.
+              </p>
+              <p>
+                {/* TODO: Add background detail — e.g. medical school, residency, years in practice, or sub-specialty focus */}
+                All treatment plans are reviewed and approved under Dr. Kim's medical direction before any service is performed.
+              </p>
+            </div>
+            {/* TODO: Replace placeholder credentials below with verified information */}
+            <ul className="mt-5 flex flex-wrap gap-2">
+              {["Medical Director, Summer House Medspa", "Aesthetic Medicine", "Dallas, TX"].map((credential) => (
+                <li
+                  key={credential}
+                  className="rounded-full border border-[#ddd0bb] bg-[#fdf6ec] px-3 py-1 text-xs font-semibold text-[#5a4228]"
+                >
+                  {credential}
+                </li>
+              ))}
+            </ul>
+          </section>
+
+          <section className="mt-6 rounded-2xl border border-[#e8dbc8] bg-white p-6">
             <h2 className="text-3xl text-[#182446]">How We Work</h2>
             <div className="mt-4 grid gap-3 text-sm leading-7 text-[#40557b]">
               <p>
@@ -90,6 +139,10 @@ export default function AboutPage() {
           { name: "Home", path: "/" },
           { name: "About", path: "/about" },
         ]}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(personJsonLd) }}
       />
     </SiteShell>
   );

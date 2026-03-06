@@ -46,7 +46,7 @@ export default async function PeptidePage({ params }: Props) {
       jobTitle: "Medical Director",
       worksFor: { "@type": "MedicalBusiness", name: "Summer House Medspa" },
     },
-    lastReviewed: "2026-03-05",
+    lastReviewed: page.lastReviewed,
     medicalAudience: { "@type": "MedicalAudience", audienceType: "Patient" },
   };
 
@@ -61,6 +61,18 @@ export default async function PeptidePage({ params }: Props) {
             >
               ← Peptide Therapy
             </Link>
+
+            {/* E-E-A-T: visible reviewed-by byline */}
+            <p className="mt-4 flex items-center gap-1.5 text-xs text-[#6b82a0]">
+              <svg className="h-3.5 w-3.5 shrink-0 text-[#7a9e7e]" viewBox="0 0 16 16" fill="currentColor">
+                <path d="M8 1L2 3.5v5c0 3.3 2.5 6.1 6 7 3.5-.9 6-3.7 6-7v-5L8 1z" />
+              </svg>
+              Medically reviewed by{" "}
+              <a href="/about" className="font-semibold text-[#3d6642] underline underline-offset-2 hover:text-[#2a5031]">
+                Dr. Daniel Kim, MD
+              </a>
+              {" "}· Medical Director · Last reviewed {page.lastReviewed}
+            </p>
 
             {/* Content rendered from markdown */}
             <article

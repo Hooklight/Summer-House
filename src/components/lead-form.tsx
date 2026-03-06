@@ -116,7 +116,7 @@ export function LeadForm({
         <svg className="h-3.5 w-3.5 shrink-0 text-[#7a9e7e]" viewBox="0 0 16 16" fill="currentColor">
           <path d="M8 1L2 3.5v5c0 3.3 2.5 6.1 6 7 3.5-.9 6-3.7 6-7v-5L8 1z" />
         </svg>
-        <span><strong>Your information stays with us.</strong> HIPAA-compliant, never shared.</span>
+        <span><strong>Your information stays with us.</strong> We only use it to respond to your request.</span>
       </div>
 
       <form onSubmit={handleSubmit} className="mt-5 grid gap-3">

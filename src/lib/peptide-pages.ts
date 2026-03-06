@@ -8,6 +8,7 @@ export type PeptidePage = {
   metaDescription: string;
   displayTitle: string;
   contentHtml: string;
+  lastReviewed: string;
 };
 
 function extractField(frontmatter: string, field: string): string {
@@ -27,18 +28,19 @@ function parsePage(filename: string, raw: string): PeptidePage {
   const metaTitle = extractField(frontmatter, "title").replace("Summer House Aesthetics", "Summer House Medspa");
   const metaDescription = extractField(frontmatter, "description").replace("Summer House Aesthetics", "Summer House Medspa");
   const displayTitle = metaTitle.replace(/\s*\|.*$/, "").trim();
+  const lastReviewed = extractField(frontmatter, "lastUpdated") || "2026-03-05";
 
   const body = second >= 0 ? raw.slice(second + 3).trim() : raw;
   const contentHtml = marked.parse(body) as string;
 
-  return { slug, metaTitle, metaDescription, displayTitle, contentHtml };
+  return { slug, metaTitle, metaDescription, displayTitle, contentHtml, lastReviewed };
 }
 
 let _cache: PeptidePage[] | null = null;
 
 export function getAllPeptidePages(): PeptidePage[] {
   if (_cache) return _cache;
-  const dir = path.join(process.cwd(), "content/condition-pages");
+  const dir = path.join(process.cwd(), "content/peptide-therapy");
   const files = fs.readdirSync(dir).filter((f) => f.endsWith(".md")).sort();
   _cache = files.map((f) => parsePage(f, fs.readFileSync(path.join(dir, f), "utf-8")));
   return _cache;

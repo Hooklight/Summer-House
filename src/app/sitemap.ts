@@ -56,7 +56,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   const peptideRoutes = getAllPeptidePages().map((page) => ({
     url: absoluteUrl(`/peptide-therapy/${page.slug}`),
-    lastModified: new Date("2026-03-05"),
+    lastModified: new Date(page.lastReviewed),
     changeFrequency: "monthly" as const,
     priority: 0.8,
   }));
