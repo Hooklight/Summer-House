@@ -10,7 +10,7 @@ import { absoluteUrl } from "@/lib/site";
 export default function sitemap(): MetadataRoute.Sitemap {
   const now = new Date();
 
-  const staticRoutes = ["", "/services", "/locations", "/conditions", "/peptide-therapy", "/about", "/contact", "/blog", "/privacy", "/terms"].map(
+  const staticRoutes = ["", "/services", "/locations", "/conditions", "/peptide-therapy", "/for", "/about", "/contact", "/blog", "/privacy", "/terms"].map(
     (path) => ({
       url: absoluteUrl(path || "/"),
       lastModified: now,

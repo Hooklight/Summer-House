@@ -33,6 +33,23 @@ export default async function PeptidePage({ params }: Props) {
     .filter((p) => p.slug !== slug)
     .slice(0, 3);
 
+  const medicalWebPageJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "MedicalWebPage",
+    name: page.displayTitle,
+    description: page.metaDescription,
+    url: `https://summerhousemedspa.com/peptide-therapy/${slug}`,
+    about: { "@type": "MedicalTherapy", name: page.displayTitle },
+    reviewedBy: {
+      "@type": "Person",
+      name: "Dr. Daniel Kim, MD",
+      jobTitle: "Medical Director",
+      worksFor: { "@type": "MedicalBusiness", name: "Summer House Medspa" },
+    },
+    lastReviewed: "2026-03-05",
+    medicalAudience: { "@type": "MedicalAudience", audienceType: "Patient" },
+  };
+
   return (
     <SiteShell>
       <main className="hero-grid py-12">
@@ -89,6 +106,10 @@ export default async function PeptidePage({ params }: Props) {
           { name: "Peptide Therapy", path: "/peptide-therapy" },
           { name: page.displayTitle, path: `/peptide-therapy/${slug}` },
         ]}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(medicalWebPageJsonLd) }}
       />
     </SiteShell>
   );

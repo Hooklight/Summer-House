@@ -109,6 +109,9 @@ export function SiteShell({ children }: SiteShellProps) {
           <Link href="/services/glp1-weight-loss-dallas" className="focus-ring whitespace-nowrap rounded-full border border-[#dacbb7] bg-white px-3 py-1 text-xs font-semibold text-[#25385f]">
             Weight Loss
           </Link>
+          <Link href="/for" className="focus-ring whitespace-nowrap rounded-full border border-[#dacbb7] bg-white px-3 py-1 text-xs font-semibold text-[#25385f]">
+            Who We Serve
+          </Link>
           <Link href="/contact" className="focus-ring whitespace-nowrap rounded-full border border-[#dacbb7] bg-white px-3 py-1 text-xs font-semibold text-[#25385f]">
             Contact
           </Link>
