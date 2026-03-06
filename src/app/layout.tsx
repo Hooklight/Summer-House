@@ -1,21 +1,21 @@
 import type { Metadata } from "next";
-import { Jost, Libre_Baskerville } from "next/font/google";
+import { Space_Grotesk, Fraunces } from "next/font/google";
 
 import { Analytics } from "@/components/analytics";
 
 import "leaflet/dist/leaflet.css";
 import "./globals.css";
 
-const jost = Jost({
-  variable: "--font-jost",
+const spaceGrotesk = Space_Grotesk({
+  variable: "--font-space-grotesk",
   subsets: ["latin"],
   weight: ["300", "400", "500", "600", "700"],
 });
 
-const libreBaskerville = Libre_Baskerville({
-  variable: "--font-baskerville",
+const fraunces = Fraunces({
+  variable: "--font-fraunces",
   subsets: ["latin"],
-  weight: ["400", "700"],
+  weight: ["300", "400", "500", "600", "700"],
   style: ["normal", "italic"],
 });
 
@@ -40,6 +40,14 @@ export const metadata: Metadata = {
     description:
       "Boutique Dallas medspa focused on natural injectable results, advanced laser care, and medically supervised wellness.",
     siteName: "Summer House Medspa",
+    images: [
+      {
+        url: "https://summerhousemedspa.com/images/salon-suite.webp",
+        width: 1200,
+        height: 630,
+        alt: "Summer House Medspa treatment suite in Dallas",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
@@ -58,7 +66,7 @@ export default function RootLayout({
 
   return (
     <html lang="en">
-      <body className={`${jost.variable} ${libreBaskerville.variable} antialiased`}>
+      <body className={`${spaceGrotesk.variable} ${fraunces.variable} antialiased`}>
         {children}
         {gaMeasurementId ? <Analytics measurementId={gaMeasurementId} /> : null}
       </body>

@@ -42,7 +42,7 @@ export const conditions: Condition[] = [
         name: "Under-Eye Filler (Tear Trough)",
         slug: "dallas-filler",
         description:
-          "Hyaluronic acid filler placed precisely in the tear trough restores lost volume under the eye, eliminating shadows and hollow appearance. One of the most transformative treatments for a tired look.",
+          "Hyaluronic acid filler placed precisely in the tear trough restores lost volume under the eye, eliminating shadows and hollow appearance. One of the most effective treatments for a tired appearance.",
       },
       {
         name: "Cheek Filler",
@@ -228,7 +228,7 @@ export const conditions: Condition[] = [
         name: "Morpheus8 Skin Tightening",
         slug: "morpheus8-dallas",
         description:
-          "Radiofrequency microneedling delivers energy deep into the dermis, triggering robust collagen and elastin production that firms loose skin. Effective on the face, neck, and body — often the best non-surgical option for post-weight-loss laxity.",
+          "Radiofrequency microneedling delivers energy deep into the dermis, triggering deep collagen and elastin production that firms loose skin. Effective on the face, neck, and body — often the best non-surgical option for post-weight-loss laxity.",
       },
       {
         name: "Dermal Filler for Facial Restoration",

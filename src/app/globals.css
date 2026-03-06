@@ -37,8 +37,8 @@
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-jost);
-  --font-display: var(--font-baskerville);
+  --font-sans: var(--font-space-grotesk);
+  --font-display: var(--font-fraunces);
 }
 
 /* ─── Base ─────────────────────────────────────────────── */
@@ -46,7 +46,7 @@
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: var(--font-jost), sans-serif;
+  font-family: var(--font-space-grotesk), sans-serif;
   min-height: 100vh;
   line-height: 1.75;
   text-rendering: optimizeLegibility;
@@ -54,7 +54,7 @@ body {
 }
 
 h1, h2, h3, h4 {
-  font-family: var(--font-baskerville), serif;
+  font-family: var(--font-fraunces), serif;
 }
 
 a, button {
@@ -191,3 +191,18 @@ input, textarea, select, button {
   }
   * { scroll-behavior: auto !important; }
 }
+
+/* ─── Markdown prose (peptide pages) ────────────────────── */
+
+.prose-summer h1 { font-size: 2.2rem; font-weight: 600; color: var(--navy); margin-top: 0; margin-bottom: 0.5rem; line-height: 1.2; }
+.prose-summer h2 { font-size: 1.4rem; font-weight: 600; color: var(--navy); margin-top: 2.25rem; margin-bottom: 0.5rem; padding-bottom: 0.35rem; border-bottom: 1px solid var(--sandy-gold); }
+.prose-summer h3 { font-size: 1.1rem; font-weight: 600; color: var(--navy); margin-top: 1.5rem; margin-bottom: 0.35rem; }
+.prose-summer p { margin-top: 1rem; color: #364a70; line-height: 1.8; }
+.prose-summer strong { color: var(--navy); font-weight: 600; }
+.prose-summer ul { margin-top: 1rem; padding-left: 1.5rem; list-style-type: disc; color: #364a70; }
+.prose-summer ol { margin-top: 1rem; padding-left: 1.5rem; list-style-type: decimal; color: #364a70; }
+.prose-summer li { margin-top: 0.4rem; line-height: 1.75; }
+.prose-summer a { color: var(--terracotta); text-decoration: underline; }
+.prose-summer a:hover { color: var(--terracotta-dark); }
+.prose-summer em { font-style: italic; }
+.prose-summer blockquote { border-left: 3px solid var(--sandy-gold); padding-left: 1rem; font-style: italic; color: #4a6080; margin: 1.5rem 0; }

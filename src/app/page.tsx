@@ -151,10 +151,6 @@ export default function Home() {
                     <p className="mt-0.5 text-[10px] uppercase tracking-[0.12em] text-[#7a8fa8] md:text-xs">{stat.label}</p>
                   </div>
                 ))}
-                <div>
-                  <p className="font-display text-3xl font-semibold text-[#182446] md:text-4xl">5.0 ★</p>
-                  <p className="mt-0.5 text-[10px] uppercase tracking-[0.12em] text-[#7a8fa8] md:text-xs">Average review</p>
-                </div>
               </div>
             </div>
 

@@ -34,7 +34,7 @@ export function SiteShell({ children }: SiteShellProps) {
           <Link href="/" className="focus-ring flex items-center gap-2">
             <Image
               src="/images/logo.webp"
-              alt="Summer House Aesthetics"
+              alt="Summer House Medspa"
               width={40}
               height={40}
               className="h-9 w-9 rounded-sm"
@@ -52,6 +52,9 @@ export function SiteShell({ children }: SiteShellProps) {
             </Link>
             <Link href="/conditions" className="focus-ring text-sm font-medium text-[#243354] hover:text-[#bb4b28]">
               Conditions
+            </Link>
+            <Link href="/peptide-therapy" className="focus-ring text-sm font-medium text-[#243354] hover:text-[#bb4b28]">
+              Peptides
             </Link>
             <Link href="/locations" className="focus-ring text-sm font-medium text-[#243354] hover:text-[#bb4b28]">
               Areas
@@ -122,7 +125,7 @@ export function SiteShell({ children }: SiteShellProps) {
             <div className="flex items-center gap-2">
               <Image
                 src="/images/logo.webp"
-                alt="Summer House Aesthetics"
+                alt="Summer House Medspa"
                 width={52}
                 height={52}
                 className="h-13 w-13 rounded-sm"
@@ -139,6 +142,7 @@ export function SiteShell({ children }: SiteShellProps) {
             <div className="mt-2 grid gap-1">
               <Link href="/services" className="focus-ring hover:text-[#bb4b28]">Services</Link>
               <Link href="/conditions" className="focus-ring hover:text-[#bb4b28]">Conditions</Link>
+              <Link href="/peptide-therapy" className="focus-ring hover:text-[#bb4b28]">Peptide Therapy</Link>
               <Link href="/locations" className="focus-ring hover:text-[#bb4b28]">Areas We Serve</Link>
               <Link href="/about" className="focus-ring hover:text-[#bb4b28]">About</Link>
               <Link href="/blog" className="focus-ring hover:text-[#bb4b28]">Blog</Link>
@@ -180,7 +184,7 @@ export function SiteShell({ children }: SiteShellProps) {
             </a>
             <p className="mt-4 text-xs font-semibold uppercase tracking-[0.1em] text-[#4f5e7f]">Hours</p>
             <ul className="mt-1 space-y-1 text-xs text-[#4f5e7f]">
-              {officeHours.slice(0, 3).map((entry) => (
+              {officeHours.map((entry) => (
                 <li key={entry.day}>{entry.day}: {entry.hours}</li>
               ))}
             </ul>

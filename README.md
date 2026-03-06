@@ -7,7 +7,7 @@ Production-ready Next.js marketing and lead-generation site for `summerhousemeds
 - Next.js (App Router, TypeScript)
 - Tailwind CSS v4
 - GA4-ready analytics integration
-- Serverless lead endpoint (`POST /api/lead`) with webhook + Airtable support
+- Serverless lead endpoint (`POST /api/leads`) with webhook + Airtable support
 
 ## Local Development
 
