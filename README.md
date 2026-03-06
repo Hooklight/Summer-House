@@ -63,13 +63,24 @@ Use one canonical primary domain and 301-redirect intent domains to matching ser
 - `oralweightlossdallas.com` + `glp1pilldallas.com` + `pillglp1.com` -> `/blog/semaglutide-vs-tirzepatide-dallas`
 - `dallasbestmedspa.com` -> `/`
 
-## Sprint Assets
+## Repository Structure
 
-Operator systems and scripts for the 48-hour sprint are in `docs/`:
+```
+src/                        # Next.js app source
+  app/                      # Pages (App Router)
+  components/               # Shared UI components
+  lib/                      # Content, analytics, site config
+  middleware.ts             # www → apex 308 redirect
 
-- `docs/sprint-48h-plan.md`
-- `docs/sops/review-system.md`
-- `docs/sops/referral-system.md`
-- `docs/sops/consult-system.md`
-- `docs/sops/reactivation-system.md`
-- `docs/kpi-dashboard-template.csv`
+public/images/              # Brand images (logo, salon)
+
+content/
+  condition-pages/          # SEO hub-and-spoke content (peptide therapy)
+  seo-research/             # Keyword research & market briefings
+  strategy/                 # Marketing strategy docs
+
+assets/documents/           # PDFs, DOCX strategy files
+domains/
+  landing-pages/            # Static HTML pages for intent domains
+  docs/                     # Domain deployment guides
+```
