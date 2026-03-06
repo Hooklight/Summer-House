@@ -1,0 +1,111 @@
+---
+title: "Sexual Health & Performance Peptide Therapy in Dallas | Summer House Aesthetics"
+description: "Restore libido, improve sexual performance, and address erectile dysfunction with peptide therapy at Summer House Aesthetics in Dallas. PT-141, Kisspeptin, and targeted protocols. Dr. Daniel Kim, MD."
+slug: /peptide-therapy/sexual-health
+category: condition-pages
+hub: /peptide-therapy
+lastUpdated: 2026-03-05
+author: "Dr. Daniel Kim, MD"
+---
+
+# Sexual Health & Performance Peptide Therapy in Dallas
+
+Nobody talks about this until it becomes a problem. And by the time they walk into our Dallas clinic, it's usually been a problem for a while — months, sometimes years.
+
+Here's what we hear: "I just don't feel like myself anymore." Or: "Everything works, technically, but something's missing." The libido that used to operate on autopilot now requires effort. Arousal takes longer. Satisfaction isn't what it was. And the frustration isn't just physical — it's the silence around it, the assumption that this is just what happens after 35 or 40 or 45.
+
+It doesn't have to be.
+
+## What's Actually Going On
+
+Sexual health sits at the intersection of hormones, neurotransmitters, blood flow, and psychological state. When something shifts — and it often shifts gradually — the effects compound. Low testosterone dampens desire. Stress elevates cortisol, which blunts arousal pathways. Poor blood flow limits physical response. And the anxiety about performance creates a feedback loop that makes everything worse.
+
+The conventional approach? A pill before sex. Maybe a testosterone prescription if your levels test low enough. Neither addresses the underlying signaling problems driving the dysfunction.
+
+Peptide therapy works differently. It targets the neurological and vascular pathways that govern sexual response — upstream of the symptoms.
+
+## How Peptides Address Sexual Function
+
+### PT-141 (Bremelanotide): Central Nervous System Activation
+
+PT-141 doesn't work like Viagra. This is important to understand.
+
+PDE5 inhibitors (Viagra, Cialis) increase blood flow mechanically. They address the plumbing. PT-141 acts on melanocortin receptors in the brain — the MC3R and MC4R pathways that regulate sexual arousal at the neurological level. Research published in the *Journal of Sexual Medicine* demonstrates that PT-141 increases both desire and arousal through central nervous system activation.
+
+What does that mean practically? You don't just get a physical response. You get the *wanting*. The drive. The motivation. That's the piece most people are actually missing — and the piece that pills don't touch.
+
+PT-141 works for both men and women. In women, it's one of very few options that directly addresses hypoactive sexual desire disorder (HSDD) through a biological mechanism rather than a psychological intervention.
+
+### Kisspeptin: The Upstream Hormone Regulator
+
+Kisspeptin is the peptide most people haven't heard of, but it sits at the top of the reproductive hormone cascade. It triggers GnRH release from the hypothalamus, which drives the entire downstream chain: LH, FSH, testosterone, estrogen.
+
+When kisspeptin signaling weakens — which happens with age, stress, sleep deprivation, and metabolic dysfunction — the whole cascade slows down. Low desire, poor arousal, reduced sexual satisfaction. Kisspeptin therapy reactivates the signal at the source rather than supplementing individual hormones downstream.
+
+Research from *The Journal of Clinical Investigation* shows that kisspeptin administration enhances sexual processing in the brain, increases limbic brain activity during arousal, and improves reported sexual desire in both men and women.
+
+### CJC-1295/Ipamorelin: Growth Hormone & Recovery
+
+Growth hormone decline contributes to reduced sexual function in ways people don't expect. Tissue sensitivity, blood flow, energy, recovery between sexual encounters — growth hormone supports all of it. CJC-1295/Ipamorelin stimulate pulsatile GH release that supports vascular health, tissue integrity, and the energy systems that underpin sexual activity.
+
+These aren't "sex peptides" specifically, but the systemic optimization they provide removes barriers that make sexual dysfunction worse.
+
+## What We See Clinically
+
+Patients using PT-141 typically report increased desire and arousal within 1-2 hours of administration. The effect lasts 12-36 hours. It's not an erection pill — it's a desire-and-arousal activator that works for both spontaneous and responsive desire patterns.
+
+Kisspeptin protocols show effects over 2-4 weeks as the hormonal cascade normalizes. Patients report gradually returning libido, improved morning erections in men, and enhanced arousal response in women.
+
+The combined protocols — addressing both acute desire (PT-141) and chronic hormonal optimization (kisspeptin + growth hormone support) — produce the most consistent results. You get both the immediate improvement and the long-term restoration.
+
+## Dr. Kim's Approach
+
+This is a sensitive topic, and we treat it that way. Every conversation in our clinic is private. Dr. Kim has managed hundreds of sexual health cases in Dallas — this isn't awkward territory for us, and we won't make it awkward for you.
+
+The evaluation starts with bloodwork. Testosterone (free and total), estrogen, SHBG, prolactin, thyroid panel, metabolic markers. We need to see what's driving the dysfunction before we prescribe anything. Sometimes it's hormonal. Sometimes it's vascular. Sometimes it's a combination.
+
+Then we build the protocol. For acute performance concerns, PT-141 offers on-demand support. For underlying drive issues, kisspeptin and hormonal optimization address root causes. For systemic support, growth hormone peptides improve the physiological infrastructure.
+
+Most patients run a combined protocol for 8-16 weeks, then reassess. Many continue long-term with adjusted dosing.
+
+## Who This Is For
+
+**Men experiencing erectile dysfunction or reduced libido.** Especially if PDE5 inhibitors don't fully solve the problem, or if you want desire back — not just function. Age 35-65, typically, though we see younger patients dealing with stress-related or medication-induced dysfunction.
+
+**Women with decreased sexual desire.** HSDD affects roughly 10% of adult women and has very few evidence-based treatments. PT-141 is one of the only options that addresses the neurology of desire directly. Kisspeptin adds hormonal optimization that many women in perimenopause or menopause are missing.
+
+**Couples noticing a mismatch.** When one partner's drive has shifted, it affects the relationship. We work with individuals, but the downstream benefit is relational.
+
+**Anyone who's been told "it's just stress" or "it's just aging."** Maybe. But stress and aging have biological mechanisms — and those mechanisms respond to targeted intervention.
+
+## Common Questions
+
+**How is PT-141 different from Viagra?**
+
+Completely different mechanism. Viagra increases blood flow to the genitals — it handles the mechanical response. PT-141 activates desire and arousal pathways in the brain. Think of it this way: Viagra makes the body respond. PT-141 makes you *want* the response. For men who respond well to Viagra but miss the desire component, PT-141 fills that gap. For women, PT-141 addresses a problem that Viagra was never designed to touch.
+
+**Are there side effects?**
+
+PT-141 can cause mild nausea in some patients, especially at higher doses. This typically diminishes with subsequent use. Flushing is common and temporary. Kisspeptin is generally well-tolerated. Dr. Kim starts conservatively and adjusts based on your response.
+
+**Will my partner know I'm using peptide therapy?**
+
+That's entirely your call. Some patients discuss it openly. Others keep it private. We don't contact partners or share medical information with anyone unless you authorize it.
+
+**How quickly does PT-141 work?**
+
+Most patients feel effects within 45 minutes to 2 hours. The duration of effect varies — typically 12-24 hours, with some patients reporting residual benefit for 36 hours. It's administered subcutaneously, usually planned 1-2 hours before anticipated activity.
+
+**Can women use these treatments?**
+
+Yes. PT-141 was FDA-approved (as Vyleesi) specifically for premenopausal women with HSDD. We also use it off-label for perimenopausal and postmenopausal women with low desire. Kisspeptin therapy benefits women's hormonal cascades the same way it benefits men's.
+
+## Next Step
+
+If this conversation feels overdue, it probably is. Dr. Kim sees patients for private sexual health consultations at our Dallas clinic. The evaluation is thorough, the conversation is confidential, and the treatment is targeted to what your specific biology actually needs.
+
+**[Schedule Your Consultation](/contact)** — Serving Dallas, Plano, Frisco, and the DFW metroplex.
+
+---
+
+**Medical Disclaimer:** This content is educational and does not replace professional medical advice. Peptide therapy carries considerations and contraindications. All treatments at Summer House Aesthetics are prescribed by Dr. Daniel Kim, MD, following medical evaluation. Results vary individually. Not all patients are candidates for peptide therapy. Sexual health treatment should be discussed with a qualified medical provider.
