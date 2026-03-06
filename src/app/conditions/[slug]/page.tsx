@@ -104,6 +104,16 @@ export default async function ConditionPage({ params }: ConditionPageProps) {
               </a>
             </div>
 
+            {/* Quick Answers (AEO: LLM + featured snippet target) */}
+            <div className="mt-6 grid gap-3 sm:grid-cols-2">
+              {condition.faq.slice(0, 2).map((item) => (
+                <div key={item.question} className="rounded-xl border border-[#e6d9c5] bg-white p-4">
+                  <p className="text-xs font-semibold uppercase tracking-[0.1em] text-[#7f4e1c]">{item.question}</p>
+                  <p className="mt-1.5 text-sm leading-relaxed text-[#374d72]">{item.answer}</p>
+                </div>
+              ))}
+            </div>
+
             {/* Signs & Symptoms */}
             <article className="mt-8 rounded-2xl border border-[#e6d9c5] bg-white p-5">
               <h2 className="text-2xl text-[#1c2848]">Signs you may have this concern</h2>

@@ -5,7 +5,8 @@ import { notFound } from "next/navigation";
 import { BreadcrumbJsonLd } from "@/components/breadcrumb-jsonld";
 import { LeadForm } from "@/components/lead-form";
 import { SiteShell } from "@/components/site-shell";
-import { contactPhoneDisplay, contactPhoneHref, locations, primaryCtaHref, services } from "@/lib/content";
+import { contactAddressLine1, contactCity, contactPhoneDisplay, contactPhoneHref, contactPostalCode, contactRegion, hasRealPhone, locations, primaryCtaHref, services } from "@/lib/content";
+import { absoluteUrl } from "@/lib/site";
 
 type LocationPageProps = {
   params: Promise<{ slug: string }>;
@@ -51,6 +52,32 @@ export default async function LocationPage({ params }: LocationPageProps) {
         text: item.answer,
       },
     })),
+  };
+
+  const localBusinessJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "MedicalBusiness",
+    name: "Summer House Medspa",
+    url: absoluteUrl("/"),
+    ...(hasRealPhone ? { telephone: contactPhoneDisplay } : {}),
+    address: {
+      "@type": "PostalAddress",
+      streetAddress: contactAddressLine1,
+      addressLocality: contactCity,
+      addressRegion: contactRegion,
+      postalCode: contactPostalCode,
+      addressCountry: "US",
+    },
+    geo: {
+      "@type": "GeoCoordinates",
+      latitude: location.latitude,
+      longitude: location.longitude,
+    },
+    areaServed: {
+      "@type": "City",
+      name: location.name,
+    },
+    medicalSpecialty: "Aesthetic Medicine",
   };
 
   return (
@@ -162,6 +189,7 @@ export default async function LocationPage({ params }: LocationPageProps) {
         ]}
       />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessJsonLd) }} />
     </SiteShell>
   );
 }

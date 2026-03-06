@@ -179,6 +179,25 @@ export default async function ServicePage({ params }: ServicePageProps) {
           </div>
         </section>
 
+        {/* ── Quick Answers (AEO: LLM + featured snippet target) ── */}
+        <section className="border-b border-[#ede4d5] bg-[#fdf8f0] py-8">
+          <div className="mx-auto max-w-6xl px-4 md:px-6">
+            <p className="text-xs font-semibold uppercase tracking-[0.18em] text-[#7a9e7e]">Quick answers</p>
+            <div className="mt-4 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+              <div className="rounded-xl border border-[#e6d9c5] bg-white p-4">
+                <p className="text-xs font-semibold uppercase tracking-[0.1em] text-[#7f4e1c]">What is it?</p>
+                <p className="mt-1.5 text-sm leading-relaxed text-[#374d72]">{service.summary}</p>
+              </div>
+              {service.faq.slice(0, 2).map((item) => (
+                <div key={item.question} className="rounded-xl border border-[#e6d9c5] bg-white p-4">
+                  <p className="text-xs font-semibold uppercase tracking-[0.1em] text-[#7f4e1c]">{item.question}</p>
+                  <p className="mt-1.5 text-sm leading-relaxed text-[#374d72]">{item.answer}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+
         {/* ── Concerns → Solutions + Structured Flow ───── */}
         <section className="bg-white py-12">
           <div className="mx-auto grid w-full max-w-6xl gap-8 px-4 md:px-6">
