@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Space_Grotesk, Fraunces } from "next/font/google";
+import { Suspense } from "react";
 
 import { Analytics } from "@/components/analytics";
 
@@ -67,7 +68,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${spaceGrotesk.variable} ${fraunces.variable} antialiased`}>
         {children}
-        {gaMeasurementId ? <Analytics measurementId={gaMeasurementId} /> : null}
+        {gaMeasurementId ? <Suspense fallback={null}><Analytics measurementId={gaMeasurementId} /></Suspense> : null}
       </body>
     </html>
   );
