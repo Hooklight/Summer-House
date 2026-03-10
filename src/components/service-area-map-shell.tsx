@@ -1,5 +1,6 @@
 "use client";
 
+import "leaflet/dist/leaflet.css";
 import dynamic from "next/dynamic";
 
 import type { Location } from "@/lib/content";

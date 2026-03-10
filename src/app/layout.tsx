@@ -3,7 +3,6 @@ import { Space_Grotesk, Fraunces } from "next/font/google";
 
 import { Analytics } from "@/components/analytics";
 
-import "leaflet/dist/leaflet.css";
 import "./globals.css";
 
 const spaceGrotesk = Space_Grotesk({

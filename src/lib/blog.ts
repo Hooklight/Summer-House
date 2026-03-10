@@ -28,6 +28,8 @@ export const blogPosts: BlogPost[] = [
         body: [
           "Ask how they define natural results. A strong answer includes conservative starting dose, muscle-specific mapping, and planned follow-up adjustments.",
           "If the provider cannot explain their decision framework, you are buying a procedure instead of a plan.",
+          "Providers who approach Botox as a custom service — not a formula — ask about your goals, look at how your face moves, and explain what they're doing and why before picking up a needle. That level of transparency is the baseline to expect.",
+          "Red flag: any injector who jumps straight to treatment without a real consultation. Five minutes of small talk is not a consultation. The assessment should take longer than the treatment.",
         ],
       },
       {
@@ -35,6 +37,8 @@ export const blogPosts: BlogPost[] = [
         body: [
           "Two-week follow-up is not optional if you want consistent outcomes. It allows dosage refinement and symmetry checks.",
           "Clinics that skip follow-up usually increase risk of overcorrection or uneven outcomes.",
+          "The first round of Botox almost always requires adjustment. Your muscles respond differently than anyone can fully predict from a single assessment. A provider who builds in follow-up understands this; one who doesn't is setting you up to live with whatever happens.",
+          "At the two-week mark, the neurotoxin has fully settled and your provider can see exactly what's working, what needs more, and whether anything needs to be addressed. It's a short appointment that makes an enormous difference in the final result.",
         ],
       },
       {
@@ -42,17 +46,57 @@ export const blogPosts: BlogPost[] = [
         body: [
           "Natural Botox should soften dynamic lines while preserving expression. You should look rested, not different.",
           "Ask for realistic expectations by area and timeline. Clear expectations prevent regret.",
+          "The goal is never zero movement — it's the right amount of softening in the right places. Your forehead should still move when you're surprised. Your eyes should still crinkle a little when you genuinely smile. If those things disappear, the dose was too aggressive.",
+          "A good injector will explain which lines they expect to fully soften, which will partially improve, and which may need a combination approach — like filler for lines that have already set permanently at rest. That level of specificity is how you know someone is actually planning for your face.",
+        ],
+      },
+      {
+        heading: "Understand Dosing and Units",
+        body: [
+          "Botox is priced per unit in most reputable Dallas clinics. Knowing roughly how many units go into each area helps you understand whether you're being appropriately dosed or over-treated.",
+          "Forehead typically takes 10 to 20 units, the glabella (the 11s between the brows) takes 20 to 25, and crow's feet run about 10 to 15 units per side. A first treatment covering all three areas usually runs 40 to 60 units total. More than that for a first-time patient is a signal to ask why.",
+          "Men typically need slightly more product than women because facial muscles are generally stronger. Body weight, muscle mass, and how expressive your face is all factor into the right dose. A one-size approach to units is a shortcut that usually shows.",
+          "Ask your provider specifically: how many units are you recommending, and what's the reasoning? That question separates providers who've actually assessed your face from those running through a standard protocol.",
+        ],
+      },
+      {
+        heading: "What to Do If You Don't Love the Result",
+        body: [
+          "Botox is temporary. If you don't like the result, it will wear off. A first treatment that feels slightly too light or slightly too heavy is useful information, not a catastrophe.",
+          "If you feel frozen, undertreated, or see asymmetry at your two-week follow-up, say so. That appointment exists precisely for this conversation. A good injector wants to know and will adjust.",
+          "If the result is genuinely wrong — a drooped brow, significant asymmetry, unexpected heaviness — document it with photos and contact the clinic. Rare complications can sometimes be partially corrected at follow-up, and in some cases, time is the best solution. Most issues resolve as the product wears off over three to four months.",
+          "The more specific you are about what you don't like, the more useful the next treatment will be. 'My left eyebrow sits lower' is actionable. 'It doesn't look right' is harder to work with.",
+        ],
+      },
+      {
+        heading: "Planning for Long-Term Results",
+        body: [
+          "Natural-looking Botox is not one appointment — it's a practice. The clients who consistently look the best have been on a regular maintenance schedule for years, with a provider who knows their face well.",
+          "Consistency lets your provider track how your muscles respond over time. Some people find they need slightly less product as their muscles are trained toward less movement. Others need consistent dosing every cycle. You'll only know after a few rounds.",
+          "Scheduling your next appointment before leaving the current one is the simplest way to stay consistent and avoid the slow backslide that happens when you go six months between treatments instead of four.",
         ],
       },
     ],
     faq: [
       {
         question: "How long until Botox works?",
-        answer: "Most clients notice change within several days, with full result usually visible around two weeks.",
+        answer:
+          "Most clients notice change within three to five days, with the full result visible around two weeks. The product works by blocking the signal between nerve and muscle — that process takes time to fully take effect. Don't judge the result at one week.",
       },
       {
         question: "How often should I schedule?",
-        answer: "Many clients maintain results every 3 to 4 months, depending on dose and muscle activity.",
+        answer:
+          "Most clients maintain results every three to four months. Some people with less muscle activity can stretch to four to five months. If you're consistently wearing off faster than three months, your dosing may need adjustment upward.",
+      },
+      {
+        question: "Will Botox look natural on my face?",
+        answer:
+          "With the right provider and appropriate dosing, yes. Natural results come from conservative starting doses, muscle-specific placement, and a two-week follow-up to refine. The frozen look comes from too much product or wrong placement — not from Botox itself.",
+      },
+      {
+        question: "What's the difference between Botox, Dysport, and Xeomin?",
+        answer:
+          "All three are botulinum toxin A products that work by the same mechanism. Dysport may spread slightly more than Botox, which some providers prefer for larger areas like the forehead. Xeomin has no accessory proteins, which some believe reduces the chance of developing resistance over years of use. The differences are subtle and provider preference and experience matter more than brand for most patients.",
       },
     ],
     cta: "Book a consultation if you want natural Botox with a clear dosing and follow-up plan.",
@@ -73,20 +117,43 @@ export const blogPosts: BlogPost[] = [
         body: [
           "Two clients on the same medication can have very different outcomes depending on dose progression, side-effect management, and behavior support.",
           "Choose a program with consistent check-ins and explicit milestones, not just prescription access.",
+          "The clinics selling GLP-1 prescriptions without real oversight are not offering you a weight-loss program — they're offering you a prescription. Those are different things. A real program includes baseline health assessment, a titration schedule calibrated to your tolerance, active management of side effects like nausea and fatigue, and a plan for what happens when you hit a plateau or want to transition off.",
+          "Your starting point matters as much as the medication. Blood glucose history, prior weight-loss attempts, current medications, and cardiovascular health all affect which pathway makes sense. A thorough intake is not a formality.",
         ],
       },
       {
-        heading: "When Semaglutide Is a Better Fit",
+        heading: "How Semaglutide Works and Who It Suits",
         body: [
-          "Semaglutide can be a strong option for clients who prioritize a steady, proven pathway and want a straightforward progression model.",
-          "The best fit depends on history, current health, timeline, and budget.",
+          "Semaglutide is a GLP-1 receptor agonist — it mimics the hormone your gut releases after eating, slowing gastric emptying, reducing appetite, and improving insulin sensitivity. It's the active ingredient in Ozempic (diabetes indication) and Wegovy (weight loss indication). Clinical trials showed an average weight loss of around 15 percent of body weight over 68 weeks at the full therapeutic dose.",
+          "Semaglutide has the longest track record in the GLP-1 category for weight management specifically. For clients who want a well-studied pathway, a clear titration protocol, and a program with years of real-world safety data, it's the more conservative starting point.",
+          "It tends to be the better fit for clients who are earlier in their GLP-1 journey, who want to start at a lower cost point, or who have had nausea issues with other medications and want the more gradual titration that semaglutide's weekly dosing allows.",
+          "Side effects — nausea, constipation, reduced appetite — are manageable for most people but depend heavily on how the dose is escalated. Programs that rush the titration to reach therapeutic dose faster see higher dropout rates. Slower is almost always better for tolerability.",
         ],
       },
       {
-        heading: "When Tirzepatide May Make Sense",
+        heading: "How Tirzepatide Works and When It Makes Sense",
         body: [
-          "Tirzepatide can be considered when goals and medical profile support that pathway. Proper titration and monitoring remain essential.",
-          "Your provider should explain not just potential upside, but tradeoffs and follow-up plan.",
+          "Tirzepatide acts on two receptors — GLP-1 and GIP — rather than one. This dual mechanism produces stronger appetite suppression and, in clinical trials (SURMOUNT-1 and SURMOUNT-2), resulted in average weight loss of 20 to 22 percent of body weight — meaningfully higher than semaglutide's averages. It's the active ingredient in Mounjaro (diabetes) and Zepbound (weight loss).",
+          "The tradeoff is that tirzepatide's side-effect profile, particularly nausea and gastrointestinal symptoms, can be more pronounced — especially during the early dose escalation phase. For clients with previous GLP-1 experience and reasonable tolerance, this is manageable. For first-time GLP-1 users, starting with semaglutide and moving to tirzepatide if you want stronger effect is a reasonable progression.",
+          "Tirzepatide tends to make sense when the goal is larger total weight loss, when a client has tried semaglutide without achieving their goal, or when the medical profile supports using the more potent option from the start. It also tends to be more expensive, which is a real-world factor in Dallas where insurance coverage for weight-loss medications remains inconsistent.",
+          "Your provider should explain the specific reasoning for which medication they recommend for you — not just what's available. If the recommendation is the same for everyone, that's a sign the intake wasn't thorough enough.",
+        ],
+      },
+      {
+        heading: "Program Structure: What a Good One Looks Like",
+        body: [
+          "A medically supervised GLP-1 program includes a baseline health assessment, a clear titration schedule, access to your provider when side effects arise, and a plan for transition or maintenance once you reach your goal. These are not extras — they're what separates a program from a prescription.",
+          "Monthly check-ins during the active loss phase are the minimum. A good program tracks weight, body composition where possible, and side-effect burden at each visit. Nausea that's not being managed is a dropout risk, and dropout is the biggest reason GLP-1 programs fail.",
+          "Ask specifically: what happens if I plateau? What does the exit plan look like? The majority of clients who stop GLP-1 medications without a structured transition regain significant weight. A program that doesn't have an answer to this question hasn't thought through the most important part.",
+          "Resistance training and adequate protein intake are not optional for clients who care about body composition rather than scale number alone. Women in particular tend to lose a higher proportion of lean muscle mass relative to men during GLP-1-assisted caloric restriction. A program that doesn't address this is leaving a significant result on the table.",
+        ],
+      },
+      {
+        heading: "The Aesthetic Side of GLP-1 Programs",
+        body: [
+          "Significant GLP-1 weight loss — especially rapid loss — affects the face. The fat compartments that give the face its youthful architecture are not selectively preserved. When clients lose 15 to 20 percent of their body weight, their face often looks gaunt, hollow, or older than expected at goal weight.",
+          "Planning for this proactively is the smarter approach. A baseline facial photo and a conversation about what to expect — when to consider facial filler, what the restoration looks like — prevents the surprise of looking in the mirror at goal weight and not recognizing your face.",
+          "At Summer House, GLP-1 programs and aesthetic care are offered together. This means clients can plan both dimensions from the start rather than treating them as unrelated concerns.",
         ],
       },
     ],
@@ -94,12 +161,22 @@ export const blogPosts: BlogPost[] = [
       {
         question: "Can I switch between programs?",
         answer:
-          "Sometimes, yes. Switching should be medically supervised with a transition plan that manages side effects and continuity.",
+          "Sometimes, yes. Switching from semaglutide to tirzepatide is the most common direction — moving to a more potent medication when initial results plateau. Switching should be medically supervised with a transition plan that manages the dose change and any side effects. Your provider should assess your current progress, health status, and goals before making a recommendation to switch.",
       },
       {
         question: "How often are follow-ups needed?",
         answer:
-          "Most clients benefit from regular monthly check-ins during active phase, then adjusted cadence for maintenance.",
+          "Most clients benefit from monthly check-ins during the active loss phase, then an adjusted cadence during maintenance. More frequent check-ins in the early titration phase — the first two to three months — help catch tolerability issues before they cause dropout. Programs with longer check-in intervals tend to have higher discontinuation rates.",
+      },
+      {
+        question: "How long do I stay on GLP-1 medication?",
+        answer:
+          "It varies significantly based on your goal, health history, and program design. Some clients reach their target weight and successfully transition off with a structured plan. Others manage their weight long-term with a maintenance dose, similar to how other chronic conditions are medically managed. The exit plan should be discussed at the start of the program, not figured out when you decide you want to stop.",
+      },
+      {
+        question: "Will insurance cover semaglutide or tirzepatide in Dallas?",
+        answer:
+          "Coverage varies significantly. Both medications are expensive out of pocket — typically $900 to $1,300 per month at pharmacy retail without insurance or manufacturer discount programs. Some insurance plans cover Wegovy (semaglutide for weight loss) or Zepbound (tirzepatide for weight loss) with prior authorization. Manufacturer savings cards can reduce out-of-pocket costs for eligible patients. Your program provider should be able to advise on coverage navigation.",
       },
     ],
     cta: "Schedule a weight-loss consultation to choose the right medically supervised program.",
@@ -120,6 +197,9 @@ export const blogPosts: BlogPost[] = [
         body: [
           "Great filler outcomes come from whole-face planning. Overfocusing on one area can create imbalance.",
           "A strong consultation includes proportion analysis, not just syringe count.",
+          "The overdone filler results you've seen — the puffy cheeks, the duck lips, the face that reads as treated from across a room — are almost always a volume problem. Either too much product was placed, or it was placed in the wrong architectural points of the face. The product itself isn't the issue. The planning is.",
+          "A skilled injector looks at the face the way an architect looks at a structure. Where does it need support? Where does it need volume? What changes will affect neighboring areas? That systems-thinking approach produces results that look like a good face, not a filled face.",
+          "In Dallas, where filler culture runs hot, it's worth being explicit with your provider: you want to look like yourself, only better. You want results you can wear into a meeting or dinner without anyone identifying a treatment. That conversation should happen before anything else.",
         ],
       },
       {
@@ -127,6 +207,17 @@ export const blogPosts: BlogPost[] = [
         body: [
           "Incremental changes reduce risk and give you room to assess outcomes before adding more.",
           "Staging also helps maintain natural movement and profile harmony.",
+          "Most people don't need as much filler as they think they do at the first appointment. One syringe placed correctly in the midface can lift the under-eye, improve nasolabial fold depth, and restore overall facial proportion without touching those areas directly. Seeing what a small intervention accomplishes before adding more is how you avoid the slow creep toward an overdone result.",
+          "A staged approach also gives you time to live in the result. Some people love what they see at two weeks. Others want to add a bit more. Others realize less was exactly right. You can't make that judgment if you've committed to three syringes in one sitting.",
+          "Be cautious of any provider who proposes aggressive volume at a first appointment for a new patient. Conservative first-session dosing is a sign of good clinical judgment, not under-delivery.",
+        ],
+      },
+      {
+        heading: "The Right Filler for the Right Area",
+        body: [
+          "Not all fillers are the same. Different hyaluronic acid formulations have different densities, lift capacities, and longevity profiles. What works for cheek volume is not the same product used for delicate tear trough correction. Your provider should be explaining which product they're recommending for each area and why.",
+          "Thicker, denser fillers (Juvederm Voluma, Restylane Lyft) are appropriate for structural areas like the cheeks and jawline where you want lasting lift. Softer fillers (Juvederm Volbella, Restylane Silk) work better in the lips and under-eyes where flexibility and natural feel matter most. Placing a high-lift structural filler in the lips, or a soft lip filler in the cheek, produces the wrong result — either too firm or insufficient support.",
+          "Ask your provider specifically: what product are you using and why is it the right choice for this area? That question reveals whether they're thinking specifically about your case or running a standard protocol.",
         ],
       },
       {
@@ -134,6 +225,16 @@ export const blogPosts: BlogPost[] = [
         body: [
           "Longevity varies by product, area, metabolism, and lifestyle. Your provider should explain timing expectations before treatment.",
           "Plan for maintenance, not emergency corrections.",
+          "Cheek filler placed with a denser product typically lasts 12 to 18 months. Lip filler, because the lips move constantly, metabolizes faster — usually 6 to 10 months. Under-eye filler in an area with minimal movement can last 18 months to two years. These are averages. Your metabolism, how active you are, and the specific product used all affect the timeline.",
+          "The ideal approach is to schedule a follow-up assessment before filler has fully worn off, not after. Waiting until you feel you look 'deflated' and need everything redone at once is both more expensive and more disruptive to maintaining a consistent appearance. Small touch-ups on a schedule produce better long-term results than large corrections on a reactive basis.",
+        ],
+      },
+      {
+        heading: "Understanding Filler Reversal",
+        body: [
+          "Hyaluronic acid filler — which includes most mainstream brands (Juvederm, Restylane, Belotero) — can be dissolved with hyaluronidase if you don't like the result or if existing filler has migrated over time. This is a real safety net that makes HA fillers significantly lower-risk than permanent or semi-permanent alternatives.",
+          "If you're new to filler or returning after a long gap, ask upfront whether your provider has hyaluronidase available. Any reputable medspa treating with HA filler should keep it on hand for both cosmetic correction and emergency vascular management.",
+          "Don't let the reversibility make you cavalier about the initial decision, but do let it reduce anxiety. You're not permanently committed to any outcome from a hyaluronic acid treatment.",
         ],
       },
     ],
@@ -141,12 +242,22 @@ export const blogPosts: BlogPost[] = [
       {
         question: "How do I know if I need dissolver?",
         answer:
-          "Dissolver is case-by-case and should be discussed during assessment if prior filler placement or migration is a concern.",
+          "Dissolver (hyaluronidase) makes sense when existing filler has migrated from its original placement, when the result looks unnatural or too full, or when you want to reset and reassess what the face actually needs. It's a case-by-case decision best made during a proper assessment rather than self-diagnosed. If you have filler that's bothering you, book an assessment — not another treatment.",
       },
       {
         question: "Can filler still look natural?",
         answer:
-          "Yes, when treatment is conservative, proportion-aware, and staged appropriately.",
+          "Yes, consistently, when treatment is conservative, proportion-aware, and staged appropriately. The overcorrected, 'pillow face' results you associate with bad filler outcomes come from too much product in the wrong place — often accumulated over many appointments without reassessment. Starting conservatively and adding incrementally is the reliable path to a result that looks like you.",
+      },
+      {
+        question: "What's the difference between filler and fat transfer?",
+        answer:
+          "Hyaluronic acid filler is injected as a gel and metabolizes over months. Fat transfer uses your own fat cells harvested from elsewhere on the body, processed, and reinjected into the face — with potentially longer-lasting results but more involved recovery and variable survival rates. Fat transfer is a surgical procedure; filler is not. Most Dallas medspa clients start with and maintain results using HA filler. Fat transfer is typically pursued when someone wants a permanent or semi-permanent result and is willing to accept the surgical recovery.",
+      },
+      {
+        question: "How soon can I see results after filler?",
+        answer:
+          "Filler is immediately visible — you'll see a difference in the treatment room. However, initial swelling can make the result look larger or more pronounced than the final outcome. Plan for one to two weeks for swelling to fully resolve before judging the result. Lip filler in particular swells more than other areas and settles into a softer, more natural appearance over the first week.",
       },
     ],
     cta: "Book a filler consultation if you want subtle facial balancing and a long-term maintenance strategy.",
@@ -167,13 +278,27 @@ export const blogPosts: BlogPost[] = [
         body: [
           "Hair grows in cycles, and laser only targets active growth effectively. That is why series-based planning is the standard.",
           "Skipping intervals often extends total time and weakens consistency.",
+          "The hair on your body is not all growing at the same time. At any given moment, roughly 20 to 30 percent of follicles are in the active growth phase (anagen), which is the phase laser targets. The other follicles are resting or transitioning and won't respond meaningfully to treatment. This is why spacing sessions appropriately — typically four to six weeks for the face and six to eight weeks for the body — is clinically important, not just scheduling convenience.",
+          "Clients who try to compress the series by booking weekly or skip sessions because they see hair-free results immediately are often disappointed when regrowth returns. The follicles that weren't treated in earlier sessions cycle into the active phase later. Full reduction requires treating those cycles too.",
         ],
       },
       {
-        heading: "How to Prepare",
+        heading: "Why the Clarity II Is Worth Choosing",
+        body: [
+          "Not all laser hair removal devices are the same. The Clarity II (by Lutronic) is a dual-wavelength platform — 755nm alexandrite and 1064nm Nd:YAG — which allows the provider to select or blend wavelengths based on your skin tone, hair color, and treatment area. This versatility matters in a city like Dallas with diverse skin tones and year-round sun exposure.",
+          "The 755nm wavelength penetrates effectively and is highly efficient at targeting melanin in lighter-to-medium skin tones. The 1064nm wavelength goes deeper and is safer for darker skin tones where shallower wavelengths carry a higher risk of post-inflammatory hyperpigmentation. Having both available in one device means your treatment can be calibrated to you specifically, rather than fit to whatever device the clinic happened to purchase.",
+          "Clarity II also has IntelliTrak — a continuous-motion scanning feature that reduces treatment time and improves coverage consistency. You get more even energy delivery across the treatment area compared to older stamp-and-shoot methods.",
+          "The practical result for clients: faster sessions, better coverage, and treatment that can be safely and effectively done on a wider range of skin tones than older single-wavelength platforms allow.",
+        ],
+      },
+      {
+        heading: "How to Prepare for Each Session",
         body: [
           "Preparation and aftercare affect results and comfort. Your clinic should provide clear instructions before each session.",
           "Consistency in prep, treatment interval, and provider communication reduces variability.",
+          "Shave the treatment area 24 to 48 hours before your appointment — not wax, not thread, not pluck. Laser targets the pigment in the hair root, which must be present in the follicle. Waxing removes the root entirely and the session won't work. Shaving leaves the root intact while removing surface hair so the laser can reach the follicle without burning surface hair.",
+          "Avoid sun exposure and self-tanner on the treatment area for at least two weeks before each session. Tanned skin increases the risk of hyperpigmentation because the laser's energy is absorbed by surface melanin rather than the hair root. In Dallas, where outdoor exposure is hard to avoid completely, sun protection on laser treatment areas is essential between sessions — not just before the first appointment.",
+          "Skip retinoids and strong exfoliating acids on the treatment area for a few days before and after each session. These thin the skin barrier and can increase sensitivity. Your provider should give you a full prep and aftercare list at your first appointment.",
         ],
       },
       {
@@ -181,6 +306,17 @@ export const blogPosts: BlogPost[] = [
         body: [
           "Expect progressive reduction across sessions rather than instant full clearance.",
           "A quality clinic will map timeline and expected checkpoints before treatment begins.",
+          "Most clients see 20 to 30 percent hair reduction after their first session, with each subsequent session building on that. By sessions four and five, many clients are seeing 70 to 80 percent reduction in treated areas. Full clearance — or as close to it as laser can achieve — typically requires six to eight sessions minimum, and some areas (face, hormonal areas like the chin and jawline) may need more.",
+          "Hair that does regrow after a completed series is usually finer, lighter, and slower-growing than what you started with. Many clients describe it as manageable rather than permanent — the occasional maintenance session every one to two years keeps results consistent. Permanent full elimination is achievable for many people but varies based on hair color, coarseness, and hormonal factors.",
+          "Hormonal areas are worth discussing specifically with your provider. The chin, upper lip, and sides of the face in women can be driven by hormonal fluctuation — meaning new follicles are sometimes activated by the same hormonal cycles that drove the original hair growth. Managing those areas may require periodic maintenance sessions even after the initial series.",
+        ],
+      },
+      {
+        heading: "Laser Hair Removal for Different Skin Tones",
+        body: [
+          "Laser hair removal was historically limited in effectiveness and safety for darker skin tones — older alexandrite lasers carried a real risk of hyperpigmentation and burns on Fitzpatrick IV through VI skin. That has changed significantly with modern platforms. The Clarity II's 1064nm mode is designed specifically for safe, effective treatment on medium to dark skin.",
+          "If you have a darker skin tone and have been told in the past that laser hair removal won't work for you, that conversation is worth revisiting with a clinic that uses a current platform and a provider experienced with your skin type. The approach, settings, and cooling protocols differ — but the outcomes can be very good.",
+          "Sun exposure in the weeks before treatment remains more important for darker skin tones, since any surface tan narrows the safety margin between the energy that treats the follicle and the energy that affects surface pigment. Vigilant sun protection between sessions is essential, not optional.",
         ],
       },
     ],
@@ -188,12 +324,22 @@ export const blogPosts: BlogPost[] = [
       {
         question: "How many sessions do most clients need?",
         answer:
-          "It varies by area, hair type, and cycle timing, but treatment is generally planned as a series for durable reduction.",
+          "Most treatment plans are six to eight sessions for body areas, spaced six to eight weeks apart. Facial areas, which cycle faster, are typically four to six weeks apart. Hormonally active areas like the chin can require additional sessions. At your consultation, your provider should give you a realistic session estimate for your specific treatment areas and hair type.",
       },
       {
         question: "Can laser be combined with other skin treatments?",
         answer:
-          "Yes, often with sequencing guidance. We map treatment order based on your goals and skin response.",
+          "Yes, often with sequencing guidance. Laser hair removal can be done in the same appointment as certain other treatments, or scheduled on a coordinated calendar. Active skin treatments — laser resurfacing, aggressive peels — should generally be scheduled on separate days and with appropriate healing time between them. Your provider should map the treatment order based on your full goals and skin response.",
+      },
+      {
+        question: "Does laser hair removal hurt?",
+        answer:
+          "Most clients describe each pulse as a brief snap or mild sting — less than waxing and over much faster. Modern devices like the Clarity II have integrated cooling that significantly reduces discomfort. Sensitive areas (bikini, underarm, upper lip) are more noticeable than legs or back. Topical numbing can be applied before treatment on particularly sensitive areas if you prefer.",
+      },
+      {
+        question: "Is laser hair removal permanent?",
+        answer:
+          "FDA clearance uses the term 'permanent hair reduction' rather than 'permanent hair removal' — which is an accurate distinction. Most clients achieve 70 to 90 percent reduction that is long-lasting, with the remaining hair being finer and slower. Periodic maintenance sessions (once a year or less) typically maintain results. Truly permanent full elimination — no regrowth ever — is achievable for some people depending on hair type and hormonal stability, but not guaranteed for everyone.",
       },
     ],
     cta: "Book a laser consultation to get a personalized timeline and package plan.",

@@ -25,8 +25,8 @@ export async function generateMetadata({ params }: LocationPageProps): Promise<M
   }
 
   return {
-    title: `Medspa ${location.name} Dallas TX | Summer House`,
-    description: `Summer House serves ${location.name} with natural injectables, laser care, and medical wellness programs in Dallas, TX.`,
+    title: `${location.name} Medspa | Botox, Filler & Laser in Dallas | Summer House`,
+    description: `Summer House serves ${location.name} with natural Botox, filler, laser treatments, and medically supervised wellness in Dallas, TX.`,
     alternates: {
       canonical: `/locations/${location.slug}`,
     },
