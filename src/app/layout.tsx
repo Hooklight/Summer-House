@@ -3,6 +3,8 @@ import { Space_Grotesk, Fraunces } from "next/font/google";
 import { Suspense } from "react";
 
 import { Analytics } from "@/components/analytics";
+import { PostHogProvider } from "@/components/posthog-provider";
+import { PostHogPageView } from "@/components/posthog-pageview";
 
 import "./globals.css";
 
@@ -66,10 +68,15 @@ export default function RootLayout({
 
   return (
     <html lang="en">
-      <body className={`${spaceGrotesk.variable} ${fraunces.variable} antialiased`}>
-        {children}
-        {gaMeasurementId ? <Suspense fallback={null}><Analytics measurementId={gaMeasurementId} /></Suspense> : null}
-      </body>
+      <PostHogProvider>
+        <body className={`${spaceGrotesk.variable} ${fraunces.variable} antialiased`}>
+          {children}
+          <Suspense fallback={null}>
+            <PostHogPageView />
+            {gaMeasurementId ? <Analytics measurementId={gaMeasurementId} /> : null}
+          </Suspense>
+        </body>
+      </PostHogProvider>
     </html>
   );
 }
