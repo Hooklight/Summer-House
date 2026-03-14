@@ -3,6 +3,7 @@ import { Space_Grotesk, Fraunces } from "next/font/google";
 import { Suspense } from "react";
 
 import { Analytics } from "@/components/analytics";
+import { Analytics as VercelAnalytics } from "@vercel/analytics/next";
 import { PostHogProvider } from "@/components/posthog-provider";
 import { PostHogPageView } from "@/components/posthog-pageview";
 
@@ -25,6 +26,7 @@ const googleVerificationToken = process.env.GOOGLE_SITE_VERIFICATION;
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://summerhousemedspa.com"),
+  icons: { icon: "/favicon.svg" },
   title: "Summer House Medspa | Dallas Natural-Looking Aesthetic and Wellness Care",
   description:
     "Summer House Medspa provides natural-looking Botox, filler, laser, GLP-1 weight-loss, and peptide wellness programs in Dallas, TX.",
@@ -71,6 +73,7 @@ export default function RootLayout({
       <PostHogProvider>
         <body className={`${spaceGrotesk.variable} ${fraunces.variable} antialiased`}>
           {children}
+          <VercelAnalytics />
           <Suspense fallback={null}>
             <PostHogPageView />
             {gaMeasurementId ? <Analytics measurementId={gaMeasurementId} /> : null}
