@@ -12,6 +12,8 @@ type PersonaPageProps = {
   params: Promise<{ persona: string }>;
 };
 
+export const dynamicParams = false;
+
 export function generateStaticParams() {
   return personas.map((p) => ({ persona: p.slug }));
 }

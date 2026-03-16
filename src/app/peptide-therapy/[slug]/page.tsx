@@ -9,6 +9,8 @@ import { getAllPeptidePages, getPeptidePage } from "@/lib/peptide-pages";
 
 type Props = { params: Promise<{ slug: string }> };
 
+export const dynamicParams = false;
+
 export function generateStaticParams() {
   return getAllPeptidePages().map((p) => ({ slug: p.slug }));
 }

@@ -12,6 +12,8 @@ type LocationPageProps = {
   params: Promise<{ slug: string }>;
 };
 
+export const dynamicParams = false;
+
 export function generateStaticParams() {
   return locations.map((location) => ({ slug: location.slug }));
 }

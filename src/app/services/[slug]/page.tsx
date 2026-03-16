@@ -41,6 +41,8 @@ const treatmentTimeline = [
   },
 ];
 
+export const dynamicParams = false;
+
 export function generateStaticParams() {
   return services.map((service) => ({ slug: service.slug }));
 }
@@ -77,6 +79,16 @@ export default async function ServicePage({ params }: ServicePageProps) {
       ...(hasRealPhone ? { telephone: contactPhoneDisplay } : {}),
     },
     description: service.summary,
+    offers: {
+      "@type": "Offer",
+      url: absoluteUrl(`/services/${service.slug}`),
+      priceCurrency: "USD",
+      availability: "https://schema.org/InStock",
+      seller: {
+        "@type": "MedicalBusiness",
+        name: "Summer House Medspa",
+      },
+    },
   };
 
   const faqJsonLd = {

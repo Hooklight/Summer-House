@@ -41,8 +41,12 @@ let _cache: PeptidePage[] | null = null;
 export function getAllPeptidePages(): PeptidePage[] {
   if (_cache) return _cache;
   const dir = path.join(process.cwd(), "content/peptide-therapy");
-  const files = fs.readdirSync(dir).filter((f) => f.endsWith(".md")).sort();
-  _cache = files.map((f) => parsePage(f, fs.readFileSync(path.join(dir, f), "utf-8")));
+  try {
+    const files = fs.readdirSync(dir).filter((f) => f.endsWith(".md")).sort();
+    _cache = files.map((f) => parsePage(f, fs.readFileSync(path.join(dir, f), "utf-8")));
+  } catch {
+    _cache = [];
+  }
   return _cache;
 }
 
