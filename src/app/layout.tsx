@@ -4,8 +4,6 @@ import { Suspense } from "react";
 
 import { Analytics } from "@/components/analytics";
 import { Analytics as VercelAnalytics } from "@vercel/analytics/next";
-import { PostHogProvider } from "@/components/posthog-provider";
-import { PostHogPageView } from "@/components/posthog-pageview";
 
 import "./globals.css";
 
@@ -70,16 +68,13 @@ export default function RootLayout({
 
   return (
     <html lang="en">
-      <PostHogProvider>
-        <body className={`${spaceGrotesk.variable} ${fraunces.variable} antialiased`}>
-          {children}
-          <VercelAnalytics />
-          <Suspense fallback={null}>
-            <PostHogPageView />
-            {gaMeasurementId ? <Analytics measurementId={gaMeasurementId} /> : null}
-          </Suspense>
-        </body>
-      </PostHogProvider>
+      <body className={`${spaceGrotesk.variable} ${fraunces.variable} antialiased`}>
+        {children}
+        <VercelAnalytics />
+        <Suspense fallback={null}>
+          {gaMeasurementId ? <Analytics measurementId={gaMeasurementId} /> : null}
+        </Suspense>
+      </body>
     </html>
   );
 }

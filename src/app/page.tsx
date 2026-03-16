@@ -44,6 +44,10 @@ const localBusinessJsonLd = {
   geo: { "@type": "GeoCoordinates", latitude: 32.8798, longitude: -96.7684 },
   aggregateRating: { "@type": "AggregateRating", ratingValue: "5.0", reviewCount: "13" },
   sameAs: [instagramUrl].filter(Boolean),
+  openingHoursSpecification: [
+    { "@type": "OpeningHoursSpecification", dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"], description: "By appointment" },
+    { "@type": "OpeningHoursSpecification", dayOfWeek: ["Saturday"], description: "Limited appointments" },
+  ],
 };
 
 const faqJsonLd = {
