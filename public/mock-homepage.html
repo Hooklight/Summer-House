@@ -1,0 +1,719 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Summer House — Med Spa, Dallas</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Space+Grotesk:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+*, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+:root {
+  --navy: #2b3d54;
+  --navy-deep: #1e2d42;
+  --white: #ffffff;
+  --off-white: #faf8f5;
+  --warm-bg: #f5f1ec;
+  --light-gray: #f5f5f4;
+  --sage: #7a9478;
+  --sage-muted: #a8b9a6;
+  --sand: #c4b49a;
+  --rust: #b5512e;
+  --text: #3a4a5c;
+  --text-light: #8a9198;
+  --border: rgba(0,0,0,0.07);
+  --shadow-sm: 0 1px 3px rgba(0,0,0,0.04), 0 1px 2px rgba(0,0,0,0.03);
+  --shadow-md: 0 4px 16px rgba(0,0,0,0.06), 0 1px 4px rgba(0,0,0,0.04);
+  --shadow-lg: 0 8px 30px rgba(0,0,0,0.08), 0 2px 8px rgba(0,0,0,0.04);  --radius: 6px;
+  --radius-lg: 12px;
+  --serif: 'Cormorant Garamond', Georgia, 'Times New Roman', serif;
+  --sans: 'Space Grotesk', -apple-system, sans-serif;
+}
+
+html { scroll-behavior: smooth; }
+body {
+  font-family: var(--sans);
+  color: var(--text);
+  background: var(--white);
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+
+/* ===== NAV ===== */
+.nav {
+  position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+  background: rgba(255,255,255,0.92);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  box-shadow: 0 1px 0 var(--border), 0 2px 8px rgba(0,0,0,0.03);
+}
+.nav-inner {
+  max-width: 1200px; margin: 0 auto;
+  padding: 0 40px; height: 70px;
+  display: flex; align-items: center; justify-content: space-between;
+}
+.nav-logo {
+  font-family: var(--serif);
+  font-size: 26px; font-weight: 400;  letter-spacing: 3px; text-transform: uppercase;
+  color: var(--navy);
+  text-decoration: none;
+}
+.nav-logo small {
+  display: block;
+  font-family: var(--sans);
+  font-size: 9px; font-weight: 400;
+  letter-spacing: 3px; text-transform: uppercase;
+  color: var(--sand);
+  margin-top: -2px;
+}
+.nav-links { display: flex; gap: 36px; align-items: center; }
+.nav-links a {
+  font-family: var(--serif);
+  font-size: 17px; font-weight: 400;
+  color: var(--text); text-decoration: none;
+  transition: color 0.2s;
+}
+.nav-links a:hover { color: var(--navy); }
+.nav-icons { display: flex; gap: 20px; align-items: center; }
+.nav-icons a {
+  font-size: 13px; font-weight: 400;
+  color: var(--text); text-decoration: none;
+}
+.nav-toggle { display: none; background: none; border: none; cursor: pointer; padding: 8px; }
+.nav-toggle span { display: block; width: 22px; height: 1.5px; background: var(--navy); margin: 5px 0; }
+
+/* ===== HERO IMAGE ===== */
+.hero-image {
+  width: 100%;
+  height: 85vh;  min-height: 500px;
+  margin-top: 70px;
+  position: relative;
+  overflow: hidden;
+  background:
+    radial-gradient(ellipse at 30% 40%, rgba(255,248,235,0.6) 0%, transparent 60%),
+    radial-gradient(ellipse at 70% 60%, rgba(244,232,214,0.4) 0%, transparent 50%),
+    linear-gradient(165deg, #e8ddd0 0%, #ddd3c3 25%, #d5c9b6 50%, #c8bca8 75%, #bfb29c 100%);
+  box-shadow: inset 0 -40px 60px -20px rgba(0,0,0,0.06);
+}
+.hero-image::before {
+  content: '';
+  position: absolute;
+  top: 8%; left: 15%;
+  width: 70%; height: 65%;
+  background: linear-gradient(160deg, rgba(255,253,249,0.45) 0%, rgba(255,253,249,0.08) 100%);
+  border: 1px solid rgba(255,253,249,0.2);
+}
+.hero-image::after {
+  content: '';
+  position: absolute;
+  top: 0; right: 0;
+  width: 40%; height: 45%;
+  background: radial-gradient(ellipse at 80% 20%, rgba(255,245,225,0.5) 0%, transparent 70%);
+}
+.hero-image .placeholder-text {
+  position: absolute;
+  bottom: 24px; left: 40px;
+  font-size: 11px; font-weight: 300;
+  letter-spacing: 2px; text-transform: uppercase;  color: rgba(90,80,70,0.35);
+}
+
+/* ===== HEADLINE SECTION ===== */
+.headline {
+  padding: 80px 40px 70px;
+  text-align: center;
+  background: var(--white);
+}
+.headline-inner { max-width: 700px; margin: 0 auto; }
+.headline h1 {
+  font-family: var(--serif);
+  font-size: clamp(44px, 6vw, 72px);
+  font-weight: 300; font-style: italic;
+  line-height: 1.1;
+  color: var(--navy);
+  margin-bottom: 28px;
+  letter-spacing: -0.5px;
+}
+.headline-sub {
+  font-size: 15px; font-weight: 300;
+  line-height: 1.8; color: var(--text);
+  letter-spacing: 0.3px;
+}
+.headline-sub br { display: block; }
+
+/* ===== SERVICES STRIP ===== */
+.services-strip {
+  padding: 24px 40px;
+  text-align: center;  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+  background: var(--off-white);
+}
+.services-strip-links {
+  font-family: var(--serif);
+  font-size: 18px; font-weight: 400;
+  letter-spacing: 1px;
+  color: var(--navy);
+}
+.services-strip-links span { padding: 0 14px; cursor: pointer; }
+.services-strip-links span:hover { color: var(--rust); }
+.services-strip-links .sep { color: var(--sand); font-size: 12px; padding: 0 4px; }
+.services-strip p {
+  margin-top: 8px;
+  font-size: 13px; font-weight: 300;
+  color: var(--text-light);
+  letter-spacing: 0.5px;
+}
+
+/* ===== PITCH ===== */
+.pitch {
+  padding: 100px 40px;
+  text-align: center;
+  background: var(--warm-bg);
+}
+.pitch-inner { max-width: 620px; margin: 0 auto; }
+.pitch h2 {
+  font-family: var(--serif);
+  font-size: clamp(28px, 4vw, 42px);  font-weight: 300;
+  line-height: 1.45;
+  color: var(--navy);
+}
+.pitch p {
+  margin-top: 24px;
+  font-family: var(--serif);
+  font-size: 20px; font-weight: 300; font-style: italic;
+  line-height: 1.7;
+  color: var(--text-light);
+}
+
+/* ===== FULL WIDTH IMAGE ===== */
+.full-image {
+  width: 100%;
+  height: 55vh;
+  min-height: 350px;
+  position: relative;
+  overflow: hidden;
+  box-shadow: inset 0 8px 24px -8px rgba(0,0,0,0.08), inset 0 -8px 24px -8px rgba(0,0,0,0.08);
+}
+.full-image.warm-interior {
+  background:
+    radial-gradient(ellipse at 50% 50%, rgba(255,250,240,0.3) 0%, transparent 60%),
+    linear-gradient(135deg, #ddd4c5 0%, #d0c4b2 40%, #c5b9a5 70%, #bfb29c 100%);
+}
+.full-image.green-exterior {
+  background:
+    radial-gradient(ellipse at 40% 70%, rgba(180,200,170,0.3) 0%, transparent 50%),
+    linear-gradient(160deg, #c8d4c0 0%, #b5c2ab 40%, #a8b69e 70%, #9daa94 100%);}
+.full-image .placeholder-text {
+  position: absolute;
+  bottom: 24px; left: 40px;
+  font-size: 11px; font-weight: 300;
+  letter-spacing: 2px; text-transform: uppercase;
+  color: rgba(90,80,70,0.3);
+}
+
+/* ===== WHY SECTION ===== */
+.why {
+  padding: 100px 40px;
+  text-align: center;
+  background: var(--white);
+}
+.why-inner { max-width: 640px; margin: 0 auto; }
+.why h2 {
+  font-family: var(--serif);
+  font-size: clamp(32px, 4.5vw, 48px);
+  font-weight: 300;
+  line-height: 1.25;
+  color: var(--navy);
+  margin-bottom: 32px;
+}
+.why p {
+  font-size: 16px; font-weight: 300;
+  line-height: 1.9;
+  color: var(--text);
+  margin-bottom: 16px;
+}
+/* ===== THREE CARDS ===== */
+.three-cards {
+  padding: 0 40px 100px;
+  background: var(--white);
+}
+.three-cards-inner {
+  max-width: 1200px; margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+.card {
+  text-align: center;
+  cursor: pointer;
+  border-radius: var(--radius);
+  overflow: hidden;
+  box-shadow: var(--shadow-md);
+  border: 1px solid var(--border);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-lg);
+}
+.card-image {
+  width: 100%;
+  aspect-ratio: 4/5;
+  margin-bottom: 0;
+  position: relative;
+  overflow: hidden;}
+.card-image.img-1 { background: linear-gradient(150deg, #e0d6c8 0%, #d3c7b5 50%, #c8bba8 100%); }
+.card-image.img-2 { background: linear-gradient(150deg, #d8d0c2 0%, #cec4b4 50%, #c2b6a4 100%); }
+.card-image.img-3 { background: linear-gradient(150deg, #ddd5c8 0%, #d5cbbc 50%, #c8bead 100%); }
+.card-label { padding: 20px; background: var(--off-white); }
+.card-label h3 {
+  font-family: var(--serif);
+  font-size: 26px; font-weight: 400;
+  color: var(--rust);
+  letter-spacing: 0.5px;
+}
+
+/* ===== TREATMENTS ===== */
+.treatments { padding: 100px 40px; background: var(--warm-bg); }
+.treatments-inner { max-width: 900px; margin: 0 auto; text-align: center; }
+.treatments-header h2 {
+  font-family: var(--serif);
+  font-size: clamp(28px, 4vw, 42px);
+  font-weight: 300; color: var(--navy); margin-bottom: 8px;
+}
+.treatments-header p {
+  font-family: var(--serif);
+  font-size: 18px; font-weight: 300; font-style: italic;
+  color: var(--text-light); margin-bottom: 60px;
+}
+.treatment-list { text-align: left; list-style: none; }
+.treatment-list li {
+  display: flex; justify-content: space-between; align-items: baseline;
+  padding: 22px 24px; margin-bottom: 8px;
+  background: var(--white); border: 1px solid var(--border);  border-radius: var(--radius); box-shadow: var(--shadow-sm);
+  cursor: pointer; transition: transform 0.2s, box-shadow 0.2s;
+}
+.treatment-list li:first-child { border-top: 1px solid var(--border); }
+.treatment-list li:hover { transform: translateX(4px); box-shadow: var(--shadow-md); }
+.treatment-list h3 { font-family: var(--serif); font-size: 24px; font-weight: 400; color: var(--navy); }
+.treatment-list .treatment-desc { font-size: 13px; font-weight: 300; color: var(--text-light); max-width: 360px; text-align: right; line-height: 1.5; }
+
+/* ===== HOW ===== */
+.how { padding: 100px 40px; text-align: center; background: var(--white); }
+.how-inner { max-width: 540px; margin: 0 auto; }
+.how-label { font-size: 11px; font-weight: 400; letter-spacing: 3px; text-transform: uppercase; color: var(--sand); margin-bottom: 36px; }
+.how-steps { list-style: none; }
+.how-steps li {
+  font-family: var(--serif); font-size: clamp(22px, 3vw, 28px); font-weight: 300;
+  line-height: 1.6; color: var(--navy);
+  padding: 16px 24px; margin-bottom: 8px;
+  background: var(--off-white); border: 1px solid var(--border); border-radius: var(--radius);
+}
+.how-end { margin-top: 28px; font-family: var(--serif); font-size: 20px; font-weight: 300; font-style: italic; color: var(--text-light); }
+
+/* ===== ABOUT ===== */
+.about { display: grid; grid-template-columns: 1fr 1fr; min-height: 600px; }
+.about-image {
+  background:
+    radial-gradient(ellipse at 50% 40%, rgba(255,248,238,0.3) 0%, transparent 60%),
+    linear-gradient(145deg, #e2d8ca 0%, #d5c9b8 50%, #c8bba8 100%);
+  position: relative;
+}
+.about-image .placeholder-text { position: absolute; bottom: 24px; left: 32px; font-size: 11px; font-weight: 300; letter-spacing: 2px; text-transform: uppercase; color: rgba(90,80,70,0.3); }.about-text { padding: 80px 60px; background: var(--white); display: flex; flex-direction: column; justify-content: center; }
+.about-text h2 { font-family: var(--serif); font-size: clamp(28px, 3.5vw, 38px); font-weight: 300; font-style: italic; line-height: 1.3; color: var(--navy); margin-bottom: 28px; }
+.about-text p { font-size: 15px; font-weight: 300; line-height: 1.9; color: var(--text); margin-bottom: 14px; }
+
+/* ===== TESTIMONIAL ===== */
+.testimonial { padding: 100px 40px; text-align: center; background: var(--warm-bg); }
+.testimonial-inner {
+  max-width: 680px; margin: 0 auto;
+  background: var(--white); padding: 60px 48px;
+  border-radius: var(--radius-lg); border: 1px solid var(--border); box-shadow: var(--shadow-md);
+}
+.testimonial-quote { font-family: var(--serif); font-size: clamp(26px, 3.5vw, 36px); font-weight: 300; font-style: italic; line-height: 1.55; color: var(--navy); margin-bottom: 24px; }
+.testimonial-attr { font-size: 13px; font-weight: 300; color: var(--text-light); letter-spacing: 1px; }
+
+/* ===== FINAL CTA ===== */
+.final-cta { padding: 120px 40px; text-align: center; background: var(--navy-deep); color: var(--white); position: relative; }
+.final-cta::before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 3px; background: linear-gradient(90deg, var(--sand) 0%, var(--sage-muted) 50%, var(--sand) 100%); }
+.final-cta h2 { font-family: var(--serif); font-size: clamp(36px, 5vw, 56px); font-weight: 300; line-height: 1.2; margin-bottom: 16px; }
+.final-cta p { font-family: var(--serif); font-size: 18px; font-weight: 300; font-style: italic; color: rgba(255,255,255,0.5); margin-bottom: 44px; }
+.final-cta a {
+  display: inline-block; padding: 17px 44px;
+  background: var(--rust); border: none; border-radius: var(--radius-lg);
+  color: var(--white); font-family: var(--sans); font-size: 14px; font-weight: 400;
+  letter-spacing: 1.5px; text-transform: uppercase; text-decoration: none;
+  box-shadow: 0 4px 20px rgba(181,81,46,0.35); transition: transform 0.2s, box-shadow 0.2s;
+}
+.final-cta a:hover { transform: translateY(-2px); box-shadow: 0 6px 28px rgba(181,81,46,0.4); }
+/* ===== CONTACT ===== */
+.contact { padding: 100px 40px; background: var(--off-white); }
+.contact-inner { max-width: 1200px; margin: 0 auto; display: grid; grid-template-columns: 1fr 1fr; gap: 100px; align-items: start; }
+.contact-text h2 { font-family: var(--serif); font-size: clamp(28px, 3.5vw, 38px); font-weight: 300; color: var(--navy); margin-bottom: 16px; }
+.contact-text > p { font-family: var(--serif); font-size: 18px; font-weight: 300; font-style: italic; color: var(--text-light); margin-bottom: 40px; }
+.contact-detail { font-size: 14px; font-weight: 300; color: var(--text); line-height: 2.2; }
+.contact-detail-card { background: var(--white); border: 1px solid var(--border); border-radius: var(--radius); padding: 20px 24px; margin-bottom: 12px; box-shadow: var(--shadow-sm); }
+.contact-detail strong { font-weight: 500; display: block; margin-bottom: 4px; font-size: 11px; letter-spacing: 2px; text-transform: uppercase; color: var(--sand); }
+.contact-detail strong:first-child { margin-top: 0; }
+.contact-form { background: var(--off-white); padding: 44px; border-radius: var(--radius-lg); border: 1px solid var(--border); box-shadow: var(--shadow-lg); }
+.form-group { margin-bottom: 22px; }
+.form-group label { display: block; font-family: var(--serif); font-size: 16px; font-weight: 400; color: var(--text); margin-bottom: 8px; }
+.form-group input, .form-group select, .form-group textarea {
+  width: 100%; padding: 14px 16px; border: 1px solid var(--border); border-radius: var(--radius);
+  background: var(--white); font-family: var(--sans); font-size: 14px; font-weight: 300;
+  color: var(--text); outline: none; transition: border-color 0.2s, box-shadow 0.2s;
+}
+.form-group input:focus, .form-group select:focus, .form-group textarea:focus {
+  border-color: var(--navy); box-shadow: 0 0 0 3px rgba(43,61,84,0.08);
+}
+.form-group textarea { min-height: 80px; resize: vertical; }
+.form-submit {
+  display: block; width: 100%; padding: 16px;
+  background: var(--rust); color: var(--white); font-family: var(--sans);
+  font-size: 14px; font-weight: 400; letter-spacing: 1.5px; text-transform: uppercase;
+  border: none; cursor: pointer; border-radius: var(--radius-lg);
+  box-shadow: 0 2px 8px rgba(181,81,46,0.25); transition: transform 0.2s, box-shadow 0.2s;
+}
+.form-submit:hover { transform: translateY(-1px); box-shadow: 0 4px 16px rgba(181,81,46,0.3); }.form-alt { text-align: center; margin-top: 16px; font-size: 13px; font-weight: 300; color: var(--text-light); }
+.form-trust-badge {
+  display: flex; align-items: flex-start; gap: 10px;
+  background: rgba(122,148,120,0.08); border: 1px solid rgba(122,148,120,0.15);
+  border-radius: var(--radius); padding: 14px 16px; margin-bottom: 24px;
+  font-size: 13px; font-weight: 300; color: var(--text); line-height: 1.5;
+}
+.form-trust-badge strong { font-weight: 500; color: var(--navy); }
+.trust-dot { display: inline-block; width: 8px; height: 8px; min-width: 8px; background: var(--sage); border-radius: 50%; margin-top: 5px; }
+
+/* ===== FOOTER ===== */
+footer { padding: 48px 40px; border-top: 1px solid var(--border); background: var(--white); text-align: center; }
+.footer-logo { font-family: var(--serif); font-size: 22px; font-weight: 400; letter-spacing: 3px; text-transform: uppercase; color: var(--navy); text-decoration: none; }
+.footer-links { margin-top: 16px; display: flex; gap: 28px; justify-content: center; }
+.footer-links a { font-family: var(--serif); font-size: 15px; font-weight: 400; color: var(--text-light); text-decoration: none; }
+.footer-links a:hover { color: var(--text); }
+.footer-copy { margin-top: 20px; font-size: 11px; font-weight: 300; color: var(--text-light); letter-spacing: 0.5px; }
+
+/* ===== RESPONSIVE — TABLET ===== */
+@media (max-width: 900px) {
+  .nav-inner { padding: 0 20px; }
+  .nav-links { display: none; }
+  .nav-links.open { display: flex; flex-direction: column; position: absolute; top: 70px; left: 0; right: 0; background: rgba(255,255,255,0.97); backdrop-filter: blur(12px); padding: 24px 20px; gap: 16px; border-bottom: 1px solid var(--border); }
+  .nav-toggle { display: block; }
+  .hero-image { height: 55vh; }
+  .headline { padding: 60px 20px 50px; }
+  .pitch { padding: 72px 20px; }
+  .why { padding: 72px 20px; }
+  .three-cards { padding: 0 20px 72px; }
+  .three-cards-inner { grid-template-columns: repeat(3, 1fr); gap: 12px; }  .card-image { aspect-ratio: 3/4; }
+  .treatments { padding: 72px 20px; }
+  .how { padding: 72px 20px; }
+  .about { grid-template-columns: 1fr; }
+  .about-image { height: 360px; }
+  .about-text { padding: 48px 20px; }
+  .testimonial { padding: 72px 20px; }
+  .final-cta { padding: 80px 20px; }
+  .contact { padding: 72px 20px; }
+  .contact-inner { grid-template-columns: 1fr; gap: 40px; }
+  .contact-form { padding: 28px 20px; }
+  footer { padding: 40px 20px; }
+}
+
+/* ===== RESPONSIVE — MOBILE ===== */
+@media (max-width: 600px) {
+  .nav-logo { font-size: 22px; letter-spacing: 2px; }
+  .nav-logo small { font-size: 8px; }
+  .hero-image { height: 50vh; min-height: 280px; margin-top: 64px; }
+  .hero-image .placeholder-text { left: 20px; bottom: 16px; }
+  .headline { padding: 48px 20px 40px; }
+  .headline h1 { font-size: 40px; margin-bottom: 20px; }
+  .headline-sub { font-size: 14px; }
+  .services-strip { padding: 20px 20px; }
+  .services-strip-links { font-size: 15px; line-height: 2; }
+  .services-strip-links span { padding: 0 8px; }
+  .services-strip-links .sep { display: none; }
+  .services-strip-links span { display: block; padding: 2px 0; }
+  .pitch h2 { font-size: 26px; }
+  .pitch p { font-size: 17px; }  .full-image { height: 40vh; min-height: 240px; }
+  .full-image .placeholder-text { left: 20px; bottom: 16px; }
+  .why h2 { font-size: 30px; }
+  .why p { font-size: 15px; }
+  .three-cards-inner { grid-template-columns: 1fr; gap: 12px; }
+  .card-image { aspect-ratio: 16/10; }
+  .card-label { padding: 16px; }
+  .card-label h3 { font-size: 22px; }
+  .treatments-header h2 { font-size: 30px; }
+  .treatment-list li { flex-direction: column; gap: 4px; padding: 18px 0; }
+  .treatment-list h3 { font-size: 20px; }
+  .treatment-list .treatment-desc { text-align: left; max-width: 100%; font-size: 13px; }
+  .how-steps li { font-size: 20px; }
+  .about-image { height: 300px; }
+  .about-image .placeholder-text { left: 20px; bottom: 16px; }
+  .about-text { padding: 40px 20px; }
+  .about-text h2 { font-size: 28px; }
+  .about-text p { font-size: 14px; line-height: 1.8; }
+  .testimonial-quote { font-size: 24px; }
+  .final-cta h2 { font-size: 32px; }
+  .final-cta p { font-size: 16px; }
+  .contact-text h2 { font-size: 28px; }
+  .footer-links { flex-wrap: wrap; gap: 16px; }
+}
+
+/* ===== MOBILE BAR ===== */
+.mobile-bar {
+  display: none; position: fixed; bottom: 0; left: 0; right: 0; z-index: 100;
+  background: var(--white); border-top: 1px solid var(--border);
+  padding: 8px 12px calc(8px + env(safe-area-inset-bottom)); gap: 8px;}
+.mobile-bar a { flex: 1; text-align: center; padding: 14px 8px; font-size: 13px; font-weight: 400; letter-spacing: 1px; text-transform: uppercase; text-decoration: none; border-radius: 0; }
+.mobile-bar .mb-call { background: var(--white); color: var(--navy); border: 1px solid var(--border); }
+.mobile-bar .mb-book { background: var(--navy); color: var(--white); }
+@media (max-width: 900px) {
+  .mobile-bar { display: flex; }
+  footer { padding-bottom: 100px; }
+  .nav-inner { height: 64px; }
+}
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="#" class="nav-logo">Summer House<small>Med Spa &middot; Dallas</small></a>
+    <div class="nav-links">
+      <a href="#treatments">Services</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </div>
+    <div class="nav-icons">
+      <a href="#contact">Book</a>
+    </div>
+    <button class="nav-toggle" aria-label="Menu" onclick="document.querySelector('.nav-links').classList.toggle('open')">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+<!-- HERO IMAGE -->
+<div class="hero-image" role="img" aria-label="Summer House treatment suite — warm, bright, private">
+  <span class="placeholder-text">[ hero photograph ]</span>
+</div>
+
+<!-- HEADLINE -->
+<section class="headline">
+  <div class="headline-inner">
+    <h1>Well, you look nice.</h1>
+    <p class="headline-sub">
+      Injectables, weight loss, peptide therapy. Dallas.<br>
+      Conservative. Honest. Thoughtful treatment.
+    </p>
+  </div>
+</section>
+
+<!-- SERVICES STRIP -->
+<div class="services-strip">
+  <div class="services-strip-links">
+    <span>Injectables</span><span class="sep">&middot;</span>
+    <span>GLP-1 Weight Loss</span><span class="sep">&middot;</span>
+    <span>Peptide Therapy</span><span class="sep">&middot;</span>
+    <span>Laser</span><span class="sep">&middot;</span>
+    <span>IV Therapy</span>
+  </div>
+  <p>Conservative treatment planning. Natural-first. No upsell.</p>
+</div>
+
+<!-- PITCH -->
+<section class="pitch">  <div class="pitch-inner">
+    <h2>You don't want to look different. You want to look like you &mdash; on your best day.</h2>
+    <p>Before the meetings. Before school pickup. Before everything. That's all we do here.</p>
+  </div>
+</section>
+
+<!-- FULL IMAGE -->
+<div class="full-image green-exterior" role="img" aria-label="White architecture, clipped greenery, natural light">
+  <span class="placeholder-text">[ lifestyle photograph ]</span>
+</div>
+
+<!-- WHY -->
+<section class="why">
+  <div class="why-inner">
+    <h2>Not another med spa.</h2>
+    <p>No chain. No background spa music you have to endure. No one adding things to your plan before you've decided on the first.</p>
+    <p>Just Jessica, her team, and an honest conversation about what you actually need.</p>
+  </div>
+</section>
+
+<!-- THREE CARDS -->
+<section class="three-cards">
+  <div class="three-cards-inner">
+    <div class="card">
+      <div class="card-image img-1" role="img" aria-label="About Summer House"></div>
+      <div class="card-label"><h3>About</h3></div>
+    </div>
+    <div class="card">
+      <div class="card-image img-2" role="img" aria-label="Our services"></div>      <div class="card-label"><h3>Services</h3></div>
+    </div>
+    <div class="card">
+      <div class="card-image img-3" role="img" aria-label="Contact us"></div>
+      <div class="card-label"><h3>Book</h3></div>
+    </div>
+  </div>
+</section>
+
+<!-- TREATMENTS -->
+<section class="treatments" id="treatments">
+  <div class="treatments-inner">
+    <div class="treatments-header">
+      <h2>What we do.</h2>
+      <p>Pick somewhere to start. Most people don't know until we talk.</p>
+    </div>
+    <ul class="treatment-list">
+      <li>
+        <h3>Botox &amp; Filler</h3>
+        <span class="treatment-desc">You, on a good day. Not frozen. Not announcing anything.</span>
+      </li>
+      <li>
+        <h3>GLP-1 Weight Loss</h3>
+        <span class="treatment-desc">It's not willpower. It's biology. Starting around $250/month.</span>
+      </li>
+      <li>
+        <h3>Peptide Therapy</h3>
+        <span class="treatment-desc">Sleep, recovery, energy. We turn the quiet signals back up.</span>
+      </li>      <li>
+        <h3>Laser &amp; Microneedling</h3>
+        <span class="treatment-desc">Clearer, tighter, more even. Like you've been somewhere warm.</span>
+      </li>
+      <li>
+        <h3>IV Therapy</h3>
+        <span class="treatment-desc">Discreet weekend concierge. Dallas. We come to you.</span>
+      </li>
+      <li>
+        <h3>Skin Care</h3>
+        <span class="treatment-desc">Medical-grade plans built around your skin, not a shelf.</span>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<!-- HOW -->
+<section class="how">
+  <div class="how-inner">
+    <p class="how-label">How it works</p>
+    <ul class="how-steps">
+      <li>Tell her what's bothering you.</li>
+      <li>Get a real plan &mdash; not a menu.</li>
+      <li>Leave knowing exactly what you're doing and why.</li>
+    </ul>
+    <p class="how-end">That's it.</p>
+  </div>
+</section>
+
+<!-- ABOUT --><section class="about" id="about">
+  <div class="about-image" role="img" aria-label="Jessica, Nurse Practitioner">
+    <span class="placeholder-text">[ jessica photograph ]</span>
+  </div>
+  <div class="about-text">
+    <h2>She'd rather be honest with you.</h2>
+    <p>Jessica started Summer House because she was tired of the upsell.</p>
+    <p>She's a mom, a provider, and someone who has sat across from enough patients to know what most people actually want: someone to be straight with them.</p>
+    <p>What do you actually need? What will actually work? What can wait?</p>
+    <p>That's the conversation you'll have here. Not a menu. Not a consult that ends with a cart total. Just an honest answer.</p>
+  </div>
+</section>
+
+<!-- FULL IMAGE -->
+<div class="full-image warm-interior" role="img" aria-label="Summer House interior — warm white walls, natural light">
+  <span class="placeholder-text">[ interior photograph ]</span>
+</div>
+
+<!-- TESTIMONIAL -->
+<section class="testimonial">
+  <div class="testimonial-inner">
+    <p class="testimonial-quote">
+      &ldquo;I wanted subtle results and finally found a provider who listens. My face looks refreshed, not done.&rdquo;
+    </p>
+    <p class="testimonial-attr">A.W. &mdash; University Park</p>
+  </div>
+</section>
+<!-- FINAL CTA -->
+<section class="final-cta">
+  <h2>Come in. We'll figure<br>it out together.</h2>
+  <p>No commitment. No hard sell. We'll figure out if we're a good fit.</p>
+  <a href="#contact">Book a Consultation</a>
+</section>
+
+<!-- CONTACT -->
+<section class="contact" id="contact">
+  <div class="contact-inner">
+    <div class="contact-text">
+      <h2>Start with a conversation.</h2>
+      <p>No commitment. No hard sell. We'll figure out if we're a good fit.</p>
+      <div class="contact-detail">
+        <div class="contact-detail-card">
+          <strong>Address</strong>
+          9667 N Central Expy, Suite 141<br>
+          Dallas, TX 75231
+        </div>
+        <div class="contact-detail-card">
+          <strong>Hours</strong>
+          Tuesday &ndash; Saturday, by appointment
+        </div>
+        <div class="contact-detail-card">
+          <strong>Areas</strong>
+          Uptown, Park Cities, Preston Hollow,<br>
+          North Dallas, University Park
+        </div>
+      </div>    </div>
+    <form class="contact-form" onsubmit="event.preventDefault(); alert('This is a mock form.');">
+      <div class="form-trust-badge">
+        <span class="trust-dot"></span>
+        <span><strong>Your information stays with us.</strong> We only use it to respond to your request.</span>
+      </div>
+      <div class="form-group">
+        <label for="name">What should we call you?</label>
+        <input type="text" id="name">
+      </div>
+      <div class="form-group">
+        <label for="phone">Best number to reach you</label>
+        <input type="tel" id="phone">
+      </div>
+      <div class="form-group">
+        <label for="interest">What's on your mind?</label>
+        <select id="interest">
+          <option value="">Select one</option>
+          <option>Botox &amp; Filler</option>
+          <option>GLP-1 Weight Loss</option>
+          <option>Peptide Therapy</option>
+          <option>Laser &amp; Microneedling</option>
+          <option>IV Therapy</option>
+          <option>Skin Care</option>
+          <option>Not sure yet</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="message">Anything else we should know beforehand</label>        <textarea id="message"></textarea>
+      </div>
+      <button type="submit" class="form-submit">Send it</button>
+      <p class="form-alt">Prefer to call? <a href="tel:+1" style="color: var(--navy); text-decoration: underline;">Call us</a> &mdash; we pick up Tuesday&ndash;Saturday.</p>
+    </form>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <a href="#" class="footer-logo">Summer House</a>
+  <div class="footer-links">
+    <a href="#">Services</a>
+    <a href="#">About</a>
+    <a href="#">Blog</a>
+    <a href="#">Instagram</a>
+    <a href="#">Contact</a>
+  </div>
+  <p class="footer-copy">&copy; 2026 Summer House Med Spa &middot; Dallas, Texas</p>
+</footer>
+
+<!-- MOBILE BAR -->
+<div class="mobile-bar">
+  <a href="tel:+1" class="mb-call">Call</a>
+  <a href="#contact" class="mb-book">Book</a>
+</div>
+
+</body>
+</html>
