@@ -1,6 +1,7 @@
 export type Service = {
   slug: string;
   title: string;
+  h1Title?: string;
   summary: string;
   intro: string;
   metaTitle: string;
@@ -193,10 +194,11 @@ export const services: Service[] = [
   {
     slug: "glp1-weight-loss-dallas",
     title: "Medical Weight Loss (GLP-1)",
+    h1Title: "GLP-1 Weight Loss in Dallas",
     summary:
       "Physician-supervised semaglutide and tirzepatide programs with check-ins, labs, and structured lifestyle support.",
     intro:
-      "Summer House runs GLP-1 care as a full medical program, not just a prescription. We focus on candidacy, side-effect management, dose progression, and retention support so clients can sustain results.",
+      "Summer House offers GLP-1 weight loss in Dallas — semaglutide (Ozempic/Wegovy) and tirzepatide (Mounjaro/Zepbound) programs supervised by a physician. Not just a prescription: full candidacy review, dose progression, side-effect management, and retention support so results last.",
     metaTitle: "GLP-1 Weight Loss Dallas TX | Semaglutide and Tirzepatide",
     metaDescription:
       "Medical weight loss in Dallas with semaglutide and tirzepatide care plans. Structured check-ins, transparent pricing, and physician oversight.",
@@ -214,14 +216,29 @@ export const services: Service[] = [
     ],
     faq: [
       {
-        question: "Do you offer semaglutide and tirzepatide programs?",
+        question: "Do you offer semaglutide and tirzepatide in Dallas?",
         answer:
-          "Yes. We determine the right path by medical history, goals, tolerance, and budget. Plans include structured follow-up.",
+          "Yes. Summer House offers both semaglutide (Ozempic, Wegovy) and tirzepatide (Mounjaro, Zepbound) programs in Dallas. The right medication is determined by your medical history, goals, tolerance, and budget. All programs include structured follow-up.",
       },
       {
-        question: "Do you bill insurance?",
+        question: "What is the difference between semaglutide and tirzepatide?",
         answer:
-          "Coverage varies by plan and indication. We review options during consultation and provide transparent self-pay pathways.",
+          "Semaglutide is a GLP-1 receptor agonist. Tirzepatide is a dual GIP/GLP-1 agonist — it activates two receptors instead of one. Clinical trials show tirzepatide produces greater average weight loss, but individual response varies. Dr. Kim reviews your history and goals to recommend the right starting point.",
+      },
+      {
+        question: "Are these weight loss injections covered by insurance in Dallas?",
+        answer:
+          "Coverage varies by plan and indication. When prescribed for type 2 diabetes, coverage is more common. For weight loss specifically, many plans still require prior authorization or don't cover it. We review your options during consultation and offer transparent self-pay pricing.",
+      },
+      {
+        question: "How much weight can I expect to lose on GLP-1 therapy?",
+        answer:
+          "Clinical trials show average weight loss of 15–22% of body weight over 68–72 weeks depending on the medication and adherence. Individual results vary based on starting weight, diet, activity, and dose progression. We set realistic expectations during your consultation.",
+      },
+      {
+        question: "Do you offer weight loss injections near Uptown Dallas?",
+        answer:
+          "Yes. Summer House Medspa has locations in Uptown Dallas and Inwood/Lovers Lane. Both locations offer GLP-1 weight loss programs with physician oversight.",
       },
     ],
   },

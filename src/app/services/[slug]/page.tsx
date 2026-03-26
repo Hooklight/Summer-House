@@ -133,7 +133,7 @@ export default async function ServicePage({ params }: ServicePageProps) {
 
                 {/* Service name — Fraunces, large */}
                 <h1 className="reveal-up mt-3 font-display text-4xl leading-[1.1] tracking-[-0.02em] text-[#182446] md:text-6xl">
-                  {service.title}
+                  {service.h1Title ?? service.title}
                 </h1>
 
                 {/* Definition summary (LLM-optimized) */}
