@@ -89,8 +89,8 @@ If below 7/10 on brand feeling, the usual culprits are:
 ## Project Structure Notes
 
 - Framework: Next.js 14 App Router, TypeScript, Tailwind CSS v4
-- Deployed: Netlify (auto-deploy from GitHub main)
-- 209 static pages: 42 services, 61 locations, 52 blog posts, 30 personas, 7 conditions
+- Deployed: Vercel (auto-deploy from GitHub main) — project "summer-house", domain summerhousemedspa.com
+- 217 static pages: 42 services, 61 locations, 60 blog posts, 30 personas, 7 conditions
 - Design tokens: `src/app/globals.css`
 - Content: `src/lib/content.ts`, `src/lib/conditions.ts`, `src/lib/blog.ts`, etc.
 - Real images available: `public/images/logo.webp`, `public/images/salon-suite.webp`
