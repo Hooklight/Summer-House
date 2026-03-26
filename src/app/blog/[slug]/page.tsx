@@ -5,7 +5,7 @@ import { notFound } from "next/navigation";
 import { BreadcrumbJsonLd } from "@/components/breadcrumb-jsonld";
 import { SiteShell } from "@/components/site-shell";
 import { contactPhoneDisplay, contactPhoneHref, primaryCtaHref } from "@/lib/content";
-import { blogPosts } from "@/lib/blog";
+import { blogPosts, type ComparisonTableRow } from "@/lib/blog";
 import { absoluteUrl } from "@/lib/site";
 
 type BlogPostPageProps = {
@@ -89,6 +89,50 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
           </p>
           <p className="mt-4 text-lg leading-8 text-[#3a4e76]">{post.intro}</p>
 
+          {post.comparisonTable && (
+            <div className="mt-8 overflow-x-auto rounded-2xl border border-[#c8b897] bg-[#fffaf2]">
+              {post.comparisonTable.caption && (
+                <p className="px-5 pt-5 text-xs font-semibold uppercase tracking-[0.12em] text-[#8b7355]">
+                  {post.comparisonTable.caption}
+                </p>
+              )}
+              <table className="w-full border-collapse text-sm">
+                <thead>
+                  <tr className="border-b border-[#c8b897]">
+                    <th className="px-5 py-3 text-left text-xs font-semibold uppercase tracking-[0.1em] text-[#8b7355]">
+                    </th>
+                    <th className="px-5 py-3 text-left text-xs font-semibold uppercase tracking-[0.1em] text-[#182446]">
+                      Semaglutide<br />
+                      <span className="font-normal normal-case tracking-normal text-[#5d7096]">Ozempic / Wegovy</span>
+                    </th>
+                    <th className="px-5 py-3 text-left text-xs font-semibold uppercase tracking-[0.1em] text-[#182446]">
+                      Tirzepatide<br />
+                      <span className="font-normal normal-case tracking-normal text-[#5d7096]">Mounjaro / Zepbound</span>
+                    </th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {post.comparisonTable.rows.map((row: ComparisonTableRow, i: number) => (
+                    <tr
+                      key={row.label}
+                      className={i % 2 === 0 ? "bg-[#fffaf2]" : "bg-[#fdf5e8]"}
+                    >
+                      <td className="border-b border-[#e8dbc8] px-5 py-3 font-semibold text-[#182446]">
+                        {row.label}
+                      </td>
+                      <td className="border-b border-[#e8dbc8] px-5 py-3 leading-6 text-[#3f547b]">
+                        {row.semaglutide}
+                      </td>
+                      <td className="border-b border-[#e8dbc8] px-5 py-3 leading-6 text-[#3f547b]">
+                        {row.tirzepatide}
+                      </td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          )}
+
           <div className="mt-8 grid gap-8">
             {post.sections.map((section) => (
               <section key={section.heading}>
@@ -101,6 +145,23 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
               </section>
             ))}
           </div>
+
+          {post.relatedLinks && post.relatedLinks.length > 0 && (
+            <section className="mt-8 rounded-2xl border border-[#c8b897] bg-[#fffaf2] px-5 py-4">
+              <p className="text-xs font-semibold uppercase tracking-[0.12em] text-[#8b7355]">Explore at Summer House</p>
+              <div className="mt-3 flex flex-wrap gap-3">
+                {post.relatedLinks.map((link) => (
+                  <Link
+                    key={link.href}
+                    href={link.href}
+                    className="focus-ring rounded-lg border border-[#c8b897] px-4 py-2 text-sm font-semibold text-[#182446] hover:border-[#a09070] hover:bg-[#fdf5e8]"
+                  >
+                    {link.label}
+                  </Link>
+                ))}
+              </div>
+            </section>
+          )}
 
           <section className="mt-10 rounded-2xl border border-[#e6d9c5] bg-[#fffaf2] p-5">
             <h2 className="text-2xl text-[#1f2c4c]">FAQ</h2>

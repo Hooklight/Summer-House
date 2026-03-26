@@ -1,3 +1,9 @@
+export type ComparisonTableRow = {
+  label: string;
+  semaglutide: string;
+  tirzepatide: string;
+};
+
 export type BlogPost = {
   slug: string;
   title: string;
@@ -6,6 +12,11 @@ export type BlogPost = {
   intro: string;
   datePublished: string;
   author: string;
+  comparisonTable?: {
+    caption?: string;
+    rows: ComparisonTableRow[];
+  };
+  relatedLinks?: Array<{ label: string; href: string }>;
   sections: Array<{ heading: string; body: string[] }>;
   faq: Array<{ question: string; answer: string }>;
   cta: string;
@@ -106,11 +117,55 @@ export const blogPosts: BlogPost[] = [
     title: "Semaglutide vs Tirzepatide in Dallas: How to Choose",
     metaTitle: "Semaglutide vs Tirzepatide Dallas TX | Weight Loss Comparison",
     description:
-      "A practical comparison of semaglutide and tirzepatide programs, including candidacy, tolerance, and program structure.",
+      "Semaglutide vs tirzepatide in Dallas — clinical results, real costs, side effects, and what happens when you stop. From a physician-led medspa in Uptown.",
     intro:
       "The right GLP-1 pathway is not only about headline weight-loss percentages. It is about candidacy, tolerance, follow-up structure, and long-term adherence.",
     datePublished: "2026-02-27",
     author: "Summer House Editorial Team",
+    relatedLinks: [
+      { label: "GLP-1 Weight Loss Program", href: "/services/glp1-weight-loss-dallas" },
+      { label: "Peptide Therapy", href: "/peptide-therapy" },
+    ],
+    comparisonTable: {
+      caption: "Semaglutide vs Tirzepatide — Quick Comparison",
+      rows: [
+        {
+          label: "How it works",
+          semaglutide: "GLP-1 receptor agonist — mimics gut hormone to reduce appetite and slow gastric emptying",
+          tirzepatide: "Dual GLP-1 + GIP receptor agonist — acts on two pathways for stronger appetite suppression",
+        },
+        {
+          label: "Average weight loss",
+          semaglutide: "~14–15% of body weight at 68–72 weeks",
+          tirzepatide: "~20–22% of body weight at 72 weeks",
+        },
+        {
+          label: "FDA-approved for weight loss",
+          semaglutide: "Yes (Wegovy)",
+          tirzepatide: "Yes (Zepbound)",
+        },
+        {
+          label: "Injection frequency",
+          semaglutide: "Once weekly",
+          tirzepatide: "Once weekly",
+        },
+        {
+          label: "Common side effects",
+          semaglutide: "Nausea, constipation, reduced appetite — generally gradual onset",
+          tirzepatide: "Nausea, GI symptoms — can be more pronounced early in titration",
+        },
+        {
+          label: "Starting dose",
+          semaglutide: "0.25 mg/week, titrated up over ~16–20 weeks",
+          tirzepatide: "2.5 mg/week, titrated up over ~20 weeks",
+        },
+        {
+          label: "Best for",
+          semaglutide: "First-time GLP-1 users, those wanting the most established safety record, or budget-sensitive programs",
+          tirzepatide: "Those wanting maximum weight loss, prior semaglutide users who plateaued, or clients with good GI tolerance",
+        },
+      ],
+    },
     sections: [
       {
         heading: "Medication Choice Is Only One Variable",
@@ -156,8 +211,56 @@ export const blogPosts: BlogPost[] = [
           "At Summer House, GLP-1 programs and aesthetic care are offered together. This means clients can plan both dimensions from the start rather than treating them as unrelated concerns.",
         ],
       },
+      {
+        heading: "What the Clinical Data Actually Shows",
+        body: [
+          "If you've been researching these medications, you've probably seen a lot of numbers thrown around. Here's what the most recent studies tell us.",
+          "In head-to-head clinical trials published in the New England Journal of Medicine, tirzepatide produced an average weight reduction of about 20% of body weight at 72 weeks, compared to roughly 14% with semaglutide. That's a meaningful difference — about 15–20 extra pounds for someone starting at 250.",
+          "Real-world data tells a similar story. A large observational study found that after one year, patients on tirzepatide lost an average of 17.2 kg (about 38 pounds), while semaglutide patients lost 14.6 kg (about 32 pounds). Both are significant. Tirzepatide consistently comes out ahead, but semaglutide is no slouch.",
+          "The catch? These are averages. Individual results vary a lot depending on starting weight, dose, adherence, diet, activity level, and whether you have a structured program around you or you're just getting a prescription and figuring it out alone. That last part matters more than most people realize.",
+        ],
+      },
+      {
+        heading: "What GLP-1 Programs Actually Cost in Dallas",
+        body: [
+          "Let's talk about the part nobody puts on their website.",
+          "If you have commercial insurance that covers Wegovy or Zepbound, your out-of-pocket cost depends on your plan. Some patients pay a copay of $25–$50/month. Others hit a specialty tier and pay $300+. Many plans don't cover weight loss medications at all, or require prior authorization with documented BMI criteria.",
+          "Without insurance, brand-name Wegovy runs roughly $1,300–$1,600/month at retail pharmacy pricing. Zepbound is similar.",
+          "Compounded semaglutide and tirzepatide have been available at lower price points, but the regulatory landscape around compounding has shifted significantly. At Summer House, we can walk you through what's currently available, what's legally compliant, and what makes sense for your situation and budget.",
+          "Our programs are structured with physician oversight, regular check-ins, and a focus on sustainability — not just handing you a vial and wishing you luck.",
+        ],
+      },
+      {
+        heading: "What Happens When You Stop Taking It",
+        body: [
+          "This is the question that keeps people up at night, and it deserves a straight answer.",
+          "Studies show that most patients regain a significant portion of lost weight within a year of stopping GLP-1 medications. That's not a failure of the medication — it's biology. These drugs work partly by reducing appetite signals in your brain. When the drug is gone, those signals come back.",
+          "This is exactly why program structure matters more than which specific medication you pick. A good GLP-1 program isn't just about the injection. It's about building habits, adjusting your relationship with food, managing the metabolic changes that come with rapid weight loss, and creating a realistic plan for what comes after.",
+          "At Summer House, we plan for the 'after' from day one. Your program isn't just a prescription. It's check-ins, body composition tracking, nutritional guidance, and honest conversations about what long-term success looks like for you specifically.",
+        ],
+      },
     ],
     faq: [
+      {
+        question: "Is tirzepatide better than semaglutide for weight loss?",
+        answer:
+          "Clinical trials show tirzepatide produces greater average weight loss (about 20% of body weight vs. 14% with semaglutide at 72 weeks). However, 'better' depends on your individual response, insurance coverage, side effect tolerance, and overall health picture. Some patients do very well on semaglutide and don't need to switch.",
+      },
+      {
+        question: "Can I switch from semaglutide to tirzepatide?",
+        answer:
+          "Yes, switching is common and something we help patients navigate at Summer House. The transition requires careful dose management since the medications work on different receptor pathways. We typically coordinate the switch during a scheduled check-in so we can monitor your response.",
+      },
+      {
+        question: "How long do I need to take semaglutide or tirzepatide?",
+        answer:
+          "Current evidence suggests that most patients need ongoing treatment to maintain weight loss results. Some patients transition to a lower maintenance dose, while others work toward lifestyle-based maintenance with periodic medication support. We discuss long-term planning from your first visit.",
+      },
+      {
+        question: "Are compounded semaglutide and tirzepatide safe?",
+        answer:
+          "Compounded medications are prepared by specialty pharmacies and are not FDA-approved in the same way as brand-name drugs. Quality and safety depend heavily on the compounding pharmacy used. We only work with facilities that meet strict quality standards, and we can explain the current regulatory landscape during your consultation.",
+      },
       {
         question: "Can I switch between programs?",
         answer:
