@@ -32,6 +32,10 @@ export async function generateMetadata({ params }: PersonaPageProps): Promise<Me
     alternates: {
       canonical: `/for/${persona.slug}`,
     },
+    robots: {
+      index: true,
+      follow: true,
+    },
   };
 }
 

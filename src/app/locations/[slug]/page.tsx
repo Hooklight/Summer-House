@@ -32,6 +32,10 @@ export async function generateMetadata({ params }: LocationPageProps): Promise<M
     alternates: {
       canonical: `/locations/${location.slug}`,
     },
+    robots: {
+      index: true,
+      follow: true,
+    },
   };
 }
 
